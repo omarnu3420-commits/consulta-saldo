@@ -60,9 +60,9 @@ button:hover {
 }
 
 .card {
-  background: #fff8c4; /* Amarillo suave */
+  background: #FFD700; /* Amarillo fuerte (oro) */
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 15px;
   margin-top: 15px;
   color: #000; /* Letras negras */
@@ -82,13 +82,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   padding: 6px;
   text-align: center;
 }
 
 th {
-  background: #f9f9f9;
+  background: #ffe066; /* Amarillo más claro para contraste */
   font-weight: bold;
 }
 
