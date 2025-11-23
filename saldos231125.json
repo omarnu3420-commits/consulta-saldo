@@ -1,0 +1,2241 @@
+
+ {
+  "No.Apt": "01-A",
+  "Nombre del Propietario": "WILFREDO VASQUEZ    ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-A",
+  "Nombre del Propietario": "WILFREDO VASQUEZ    ",
+  "No. Factura": "SA0924",
+  "Monto": 16923,
+  "Abonado": 6232,
+  "Saldo": 10691
+ },
+ {
+  "No.Apt": "01-A",
+  "Nombre del Propietario": "WILFREDO VASQUEZ    ",
+  "No. Factura": "TUBGAS",
+  "Monto": 620,
+  "Abonado": 0,
+  "Saldo": 620
+ },
+ {
+  "No.Apt": "01-B",
+  "Nombre del Propietario": "RAFAEL FERMIN       ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 2200,
+  "Saldo": 500
+ },
+ {
+  "No.Apt": "01-B",
+  "Nombre del Propietario": "RAFAEL FERMIN       ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "01-B",
+  "Nombre del Propietario": "RAFAEL FERMIN       ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-B",
+  "Nombre del Propietario": "RAFAEL FERMIN       ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "01-B",
+  "Nombre del Propietario": "RAFAEL FERMIN       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-C",
+  "Nombre del Propietario": "JUAN FEBRES         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "01-D",
+  "Nombre del Propietario": "PEDRO BOADA         ",
+  "No. Factura": "SA0924",
+  "Monto": 53839,
+  "Abonado": 44035,
+  "Saldo": 9804
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 82024,
+  "Monto": 2200,
+  "Abonado": 1200,
+  "Saldo": 1000
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "02-B",
+  "Nombre del Propietario": "MARISOL LUCENA      ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "02-C",
+  "Nombre del Propietario": "CARMEN DE DICRISIO  ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "03-A",
+  "Nombre del Propietario": "HENRY CORNEJO       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "03-C",
+  "Nombre del Propietario": "AMADA ROJAS         ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 1005,
+  "Saldo": 1495
+ },
+ {
+  "No.Apt": "04-A",
+  "Nombre del Propietario": "LUIS CANACHE        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "04-B",
+  "Nombre del Propietario": "MANZUR GONZALEZ     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 1300,
+  "Saldo": 1700
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 1349,
+  "Saldo": 1151
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "04-C",
+  "Nombre del Propietario": "MIRIAM ROSALES      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 500,
+  "Saldo": 1900
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "04-D",
+  "Nombre del Propietario": "JOSE LUIS MENDOZA   ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-A",
+  "Nombre del Propietario": "MARIA MONCADA       ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 2038,
+  "Saldo": 662
+ },
+ {
+  "No.Apt": "05-A",
+  "Nombre del Propietario": "MARIA MONCADA       ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "05-A",
+  "Nombre del Propietario": "MARIA MONCADA       ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-A",
+  "Nombre del Propietario": "MARIA MONCADA       ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-A",
+  "Nombre del Propietario": "MARIA MONCADA       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-B",
+  "Nombre del Propietario": "MILITZA VASQUEZ     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 1100,
+  "Saldo": 1600
+ },
+ {
+  "No.Apt": "05-B",
+  "Nombre del Propietario": "MILITZA VASQUEZ     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "05-B",
+  "Nombre del Propietario": "MILITZA VASQUEZ     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-B",
+  "Nombre del Propietario": "MILITZA VASQUEZ     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-B",
+  "Nombre del Propietario": "MILITZA VASQUEZ     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "05-C",
+  "Nombre del Propietario": "MARTIN MALAVE       ",
+  "No. Factura": "SA0924",
+  "Monto": 33814,
+  "Abonado": 7002,
+  "Saldo": 26812
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 613,
+  "Saldo": 1687
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-A",
+  "Nombre del Propietario": "JOSEPH MARDELLI     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-B",
+  "Nombre del Propietario": "SALAH MAKAREN       ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 1200,
+  "Saldo": 1500
+ },
+ {
+  "No.Apt": "06-B",
+  "Nombre del Propietario": "SALAH MAKAREN       ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-B",
+  "Nombre del Propietario": "SALAH MAKAREN       ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-B",
+  "Nombre del Propietario": "SALAH MAKAREN       ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-B",
+  "Nombre del Propietario": "SALAH MAKAREN       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-C",
+  "Nombre del Propietario": "EDGAR GOMEZ         ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 600,
+  "Saldo": 2100
+ },
+ {
+  "No.Apt": "06-C",
+  "Nombre del Propietario": "EDGAR GOMEZ         ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-C",
+  "Nombre del Propietario": "EDGAR GOMEZ         ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-C",
+  "Nombre del Propietario": "EDGAR GOMEZ         ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-C",
+  "Nombre del Propietario": "EDGAR GOMEZ         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 718,
+  "Saldo": 1982
+ },
+ {
+  "No.Apt": "06-D",
+  "Nombre del Propietario": "IGNACIO JORQUERA    ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "07-A",
+  "Nombre del Propietario": "JESUS APONTE        ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 400,
+  "Saldo": 2000
+ },
+ {
+  "No.Apt": "07-A",
+  "Nombre del Propietario": "JESUS APONTE        ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-A",
+  "Nombre del Propietario": "JESUS APONTE        ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "07-A",
+  "Nombre del Propietario": "JESUS APONTE        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-B",
+  "Nombre del Propietario": "ROBERTO JIMENEZ     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 300,
+  "Saldo": 2100
+ },
+ {
+  "No.Apt": "07-B",
+  "Nombre del Propietario": "ROBERTO JIMENEZ     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-B",
+  "Nombre del Propietario": "ROBERTO JIMENEZ     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "07-B",
+  "Nombre del Propietario": "ROBERTO JIMENEZ     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-C",
+  "Nombre del Propietario": "SANDRA CANACHE      ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 171,
+  "Saldo": 2229
+ },
+ {
+  "No.Apt": "07-C",
+  "Nombre del Propietario": "SANDRA CANACHE      ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-C",
+  "Nombre del Propietario": "SANDRA CANACHE      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "07-C",
+  "Nombre del Propietario": "SANDRA CANACHE      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "07-D",
+  "Nombre del Propietario": "NANCY BELLORIN      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 2000,
+  "Saldo": 1000
+ },
+ {
+  "No.Apt": "08-B",
+  "Nombre del Propietario": "Daniuska Chasoy     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "08-B",
+  "Nombre del Propietario": "Daniuska Chasoy     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 1200,
+  "Saldo": 1200
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "08-C",
+  "Nombre del Propietario": "AMERICA SUZARRA     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "08-D",
+  "Nombre del Propietario": "ROXMIRA AVILA       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 1400,
+  "Saldo": 1000
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "09-B",
+  "Nombre del Propietario": "JACQUELIN LOPEZ     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 753,
+  "Saldo": 1547
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "09-C",
+  "Nombre del Propietario": "CRISTIAN NUCETE     ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "09-D",
+  "Nombre del Propietario": "ROXANA FIGUEROA     ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 2100,
+  "Saldo": 600
+ },
+ {
+  "No.Apt": "09-D",
+  "Nombre del Propietario": "ROXANA FIGUEROA     ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "09-D",
+  "Nombre del Propietario": "ROXANA FIGUEROA     ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "09-D",
+  "Nombre del Propietario": "ROXANA FIGUEROA     ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "09-D",
+  "Nombre del Propietario": "ROXANA FIGUEROA     ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-B",
+  "Nombre del Propietario": "LISETT PEREZ        ",
+  "No. Factura": "SA0924",
+  "Monto": 64905,
+  "Abonado": 24380,
+  "Saldo": 40525
+ },
+ {
+  "No.Apt": "10-C",
+  "Nombre del Propietario": "ELIDIS BRAZON       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "10-D",
+  "Nombre del Propietario": "JESUS OBANDO        ",
+  "No. Factura": "SA0924",
+  "Monto": 25705,
+  "Abonado": 24705,
+  "Saldo": 1000
+ },
+ {
+  "No.Apt": "11-A",
+  "Nombre del Propietario": "CRUZ HERNANDEZ      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "11-A",
+  "Nombre del Propietario": "CRUZ HERNANDEZ      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "11-B",
+  "Nombre del Propietario": "OMAR NUNEZ          ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 300,
+  "Saldo": 2000
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "11-D",
+  "Nombre del Propietario": "PABLO ROSAS         ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": "SA0924",
+  "Monto": 58969,
+  "Abonado": 0,
+  "Saldo": 58969
+ },
+ {
+  "No.Apt": "12-B",
+  "Nombre del Propietario": "FRANKLIN ARIAS      ",
+  "No. Factura": "TUBGAS",
+  "Monto": 620,
+  "Abonado": 0,
+  "Saldo": 620
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": "SA0924",
+  "Monto": 30314,
+  "Abonado": 926,
+  "Saldo": 29388
+ },
+ {
+  "No.Apt": "13-A",
+  "Nombre del Propietario": "LUIS GAGO           ",
+  "No. Factura": "TUBGAS",
+  "Monto": 620,
+  "Abonado": 0,
+  "Saldo": 620
+ },
+ {
+  "No.Apt": "13-B",
+  "Nombre del Propietario": "PLINIO MARIN        ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "13-B",
+  "Nombre del Propietario": "PLINIO MARIN        ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "13-B",
+  "Nombre del Propietario": "PLINIO MARIN        ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "13-B",
+  "Nombre del Propietario": "PLINIO MARIN        ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-B",
+  "Nombre del Propietario": "PLINIO MARIN        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "13-C",
+  "Nombre del Propietario": "ANA RAMOS           ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 500,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "13-D",
+  "Nombre del Propietario": "JOSE ZERPA          ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 1500,
+  "Saldo": 1500
+ },
+ {
+  "No.Apt": "14-A",
+  "Nombre del Propietario": "OMAR MATA           ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "14-B",
+  "Nombre del Propietario": "ANDRES VALLERA      ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "14-B",
+  "Nombre del Propietario": "ANDRES VALLERA      ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 12025,
+  "Monto": 2600,
+  "Abonado": 0,
+  "Saldo": 2600
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 22025,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 32025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 42025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 52025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 62025,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 72025,
+  "Monto": 2400,
+  "Abonado": 0,
+  "Saldo": 2400
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 82025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 92024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 102024,
+  "Monto": 2300,
+  "Abonado": 0,
+  "Saldo": 2300
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 112024,
+  "Monto": 2700,
+  "Abonado": 0,
+  "Saldo": 2700
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": 122024,
+  "Monto": 2500,
+  "Abonado": 0,
+  "Saldo": 2500
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": "SA0924",
+  "Monto": 22578,
+  "Abonado": 12844,
+  "Saldo": 9734
+ },
+ {
+  "No.Apt": "14-C",
+  "Nombre del Propietario": "JOSE ARRIOJAS       ",
+  "No. Factura": "TUBGAS",
+  "Monto": 620,
+  "Abonado": 0,
+  "Saldo": 620
+ },
+ {
+  "No.Apt": "14-D",
+  "Nombre del Propietario": "LIBIA AVILA         ",
+  "No. Factura": 92025,
+  "Monto": 2500,
+  "Abonado": 1400,
+  "Saldo": 1100
+ },
+ {
+  "No.Apt": "14-D",
+  "Nombre del Propietario": "LIBIA AVILA         ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "PB-C",
+  "Nombre del Propietario": "CESAR TORO          ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "PB-D",
+  "Nombre del Propietario": "ANGEL VICENT        ",
+  "No. Factura": 102025,
+  "Monto": 3000,
+  "Abonado": 0,
+  "Saldo": 3000
+ },
+ {
+  "No.Apt": "--->",
+  "Nombre del Propietario": "SALDO x COBRAR      ",
+  "No. Factura": 102025,
+  "Monto": 0,
+  "Abonado": 0,
+  "Saldo": 8645
+ }
