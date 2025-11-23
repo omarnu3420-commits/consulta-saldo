@@ -66,13 +66,20 @@ button:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 15px;
   margin-top: 15px;
-  color: #000;
-  font-weight: bold; /* Todo el texto en negritas */
+  color: #000; /* Letras negras */
+  font-weight: bold; /* Todo en negritas */
 }
 
 .card h3 {
   margin-top: 0;
-  color: #000;
+  color: #000; /* Negro */
+  font-weight: bold; /* Negritas */
+  text-align: center;
+}
+
+.card p {
+  color: #000; /* Negro */
+  font-weight: bold; /* Negritas */
   text-align: center;
 }
 
@@ -87,12 +94,12 @@ th, td {
   border: 1px solid #333;
   padding: 6px;
   text-align: center;
+  color: #000; /* Negro */
+  font-weight: bold; /* Negritas */
 }
 
 th {
   background: #add8e6; /* Azul suave */
-  color: #000;
-  font-weight: bold;
 }
 
 @media (max-width: 600px) {
