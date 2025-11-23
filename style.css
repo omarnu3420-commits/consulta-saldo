@@ -122,6 +122,9 @@ button:hover {
 .card p {
   text-align: center;
   margin: 6px 0;
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+  font-weight: 700 !important;
 }
 
 /* ====== Tabla dentro de la tarjeta ====== */
@@ -135,7 +138,7 @@ button:hover {
 
 .card th, 
 .card td {
-  border: 1px solid #333;
+  border: 1px solid #ccc; /* Bordes gris claro */
   padding: 8px 6px;
   text-align: center;
 }
