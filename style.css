@@ -66,7 +66,8 @@ button:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 15px;
   margin-top: 15px;
-  color: #000; /* Letras negras */
+  color: #000;
+  font-weight: bold; /* Todo el texto en negritas */
 }
 
 .card h3 {
@@ -89,7 +90,8 @@ th, td {
 }
 
 th {
-  background: #ffe066; /* Amarillo más claro para contraste */
+  background: #add8e6; /* Azul suave */
+  color: #000;
   font-weight: bold;
 }
 
