@@ -1,112 +1,183 @@
+/* ====== Reset básico y tipografía ====== */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #f0f2f5;
   color: #333;
+  line-height: 1.4;
 }
 
+/* ====== Contenedor principal ====== */
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ====== Logo e ícono ====== */
 .logo {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 .icono {
-  width: 60px;
+  width: 64px;
   height: auto;
+  display: inline-block;
+}
+
+/* ====== Títulos y párrafos generales ====== */
+h1, h2, h3 {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 700;
 }
 
 h2 {
-  text-align: center;
   font-size: 22px;
-  margin: 10px;
   color: #007BFF;
 }
 
 p {
   text-align: center;
-  margin: 5px;
+  margin: 6px 0;
   font-size: 14px;
   color: #555;
 }
 
-.container {
-  max-width: 500px;
-  margin: auto;
-  padding: 15px;
-}
-
+/* ====== Formulario ====== */
 input, button {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
   font-size: 16px;
-  box-sizing: border-box;
   border-radius: 8px;
   border: 1px solid #ccc;
+  background: #fff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
 }
 
 button {
   background: #007BFF;
-  color: white;
+  color: #fff;
   border: none;
   cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s;
+  font-weight: 700;
+  transition: background 0.2s ease-in-out;
 }
 
 button:hover {
   background: #0056b3;
 }
 
+/* ====== Tarjeta Estado de Cuenta ====== */
 .card {
-  background: #FFD700; /* Amarillo fuerte */
-  border: 3px solid #000; /* Borde negro grueso */
-  border-radius: 10px;
+  background: #FFD700;            /* Amarillo intenso */
+  border: 3px solid #000;         /* Borde negro grueso */
+  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  padding: 15px;
-  margin-top: 15px;
-  color: #000; /* Letras negras */
-  font-weight: bold; /* Todo en negritas */
+  padding: 16px;
+  margin-top: 16px;
+  color: #000 !important;         /* Forzar negro */
+  font-weight: 700 !important;    /* Forzar negritas */
 }
 
+/* Título dentro de la tarjeta */
 .card h3 {
   margin-top: 0;
-  color: #000; /* Negro */
-  font-weight: bold; /* Negritas */
+  margin-bottom: 10px;
+  color: #000 !important;
+  font-weight: 800 !important;
   text-align: center;
 }
 
-.card p {
-  color: #000; /* Negro */
-  font-weight: bold; /* Negritas */
+/* Mensajes dentro de la tarjeta (debajo de la tabla) */
+.card p,
+.card .mensaje,
+.card .nota {
+  color: #000 !important;
+  font-weight: 700 !important;
   text-align: center;
+  margin: 6px 0;
 }
 
-table {
+/* ====== Tabla dentro de la tarjeta ====== */
+.card table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
   font-size: 14px;
+  background: transparent;
 }
 
-th, td {
+.card th, 
+.card td {
   border: 1px solid #333;
-  padding: 6px;
+  padding: 8px 6px;
   text-align: center;
-  color: #000; /* Negro */
-  font-weight: bold; /* Negritas */
+  color: #000 !important;         /* Forzar negro */
+  font-weight: 700 !important;    /* Negritas */
 }
 
-th {
-  background: #add8e6; /* Azul suave */
+/* Encabezados con azul suave */
+.card th {
+  background: #add8e6;            /* Azul suave */
 }
 
+/* Fila de totales resaltada (si existe) */
+.card tfoot td,
+.card .total {
+  background: rgba(0,0,0,0.06);
+  font-weight: 800 !important;
+}
+
+/* ====== Utilidades ====== */
+.hidden {
+  display: none !important;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.bold {
+  font-weight: 800 !important;
+}
+
+.black {
+  color: #000 !important;
+}
+
+/* ====== Responsivo ====== */
 @media (max-width: 600px) {
+  .container {
+    padding: 12px;
+  }
   h2 {
     font-size: 18px;
   }
-  table {
-    font-size: 12px;
+  .card {
+    border-width: 3px;
+    padding: 14px;
+  }
+  .card table {
+    font-size: 13px;
+  }
+  .icono {
+    width: 56px;
   }
 }
