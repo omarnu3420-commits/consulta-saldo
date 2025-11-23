@@ -58,20 +58,21 @@ button {
 button:hover {
   background: #0056b3;
 }
-
 .card {
-  background: white;
+  background: #fff8c4; /* Amarillo suave */
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 15px;
   margin-top: 15px;
+  color: #000; /* Letras negras */
 }
 
 .card h3 {
   margin-top: 0;
-  color: #007BFF;
+  color: #000;
   text-align: center;
 }
+
 
 table {
   width: 100%;
