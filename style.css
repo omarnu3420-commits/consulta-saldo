@@ -87,16 +87,16 @@ button:hover {
 
 /* ====== Tarjeta Estado de Cuenta ====== */
 .card {
-  background: #FFD700;                 /* Amarillo intenso */
-  border: 3px solid #000;              /* Borde negro grueso */
+  background: #f2f2f2;                /* Gris claro */
+  border: 3px solid #000;             /* Borde negro grueso */
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 16px;
   margin-top: 16px;
-  color: #000 !important;              /* Forzar negro */
-  font-weight: 700 !important;         /* Forzar negritas */
-  color-scheme: light;                 /* Evita inversión automática */
-  forced-color-adjust: none;           /* Bloquea ajustes de alto contraste */
+  color: #000 !important;             /* Forzar negro */
+  font-weight: 700 !important;        /* Negritas */
+  color-scheme: light;
+  forced-color-adjust: none;
 }
 
 /* Fuerza negro y negritas en todo lo interno */
@@ -122,9 +122,6 @@ button:hover {
 .card p {
   text-align: center;
   margin: 6px 0;
-  color: #000 !important;
-  -webkit-text-fill-color: #000 !important;
-  font-weight: 700 !important;
 }
 
 /* ====== Tabla dentro de la tarjeta ====== */
