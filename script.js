@@ -54,6 +54,7 @@ async function consultarSaldo() {
     });
     detalle += `</table>
       <p style="text-align:center; margin-top:10px;">Agradecemos ponerse al día</p>
+      <p style="text-align:center;">Por favor hacer su pago PM así:</p>
       <p style="text-align:center;">Bco:0134 C.I: 12.345.678 Tel.0424.111.22.33</p>
       <p style="text-align:center;">Enviar captura al grupo del condominio, Gracias</p>
     `;
