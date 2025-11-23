@@ -8,7 +8,6 @@ async function consultarSaldo() {
   const codigoInput = document.getElementById("codigo").value.trim().toUpperCase();
   if (!codigoInput) return;
 
-  // Normalizar: 1A -> 01-A, PBX -> PB-X
   let codigo = codigoInput;
   if (/^\d+[A-D]$/.test(codigo)) {
     let num = codigo.slice(0, -1).padStart(2, "0");
@@ -39,7 +38,7 @@ async function consultarSaldo() {
       <h3>Estado de Cuenta</h3>
       <p>No.Apt: ${codigo}</p>
       <p>Nombre: ${nombre}</p>
-      <p>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</p>
+      <p><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
       <table>
         <tr><th>No.Factura</th><th>Monto</th><th>Abonado</th><th>Pendiente</th></tr>
     `;
@@ -54,9 +53,9 @@ async function consultarSaldo() {
       `;
     });
     detalle += `</table>
-      <p>Agradecemos ponerse al día</p>
-      <p>Bco:0134 C.I: 12.345.678 Tel.0424.111.22.33</p>
-      <p>Enviar captura al grupo del condominio, Gracias</p>
+      <p style="text-align:center; margin-top:10px;">Agradecemos ponerse al día</p>
+      <p style="text-align:center;">Bco:0134 C.I: 12.345.678 Tel.0424.111.22.33</p>
+      <p style="text-align:center;">Enviar captura al grupo del condominio, Gracias</p>
     `;
 
     resultadoDiv.innerHTML = detalle;

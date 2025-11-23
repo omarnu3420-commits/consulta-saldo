@@ -6,10 +6,20 @@ body {
   color: #333;
 }
 
+.logo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.icono {
+  width: 60px;
+  height: auto;
+}
+
 h2 {
   text-align: center;
   font-size: 22px;
-  margin: 20px 10px 5px;
+  margin: 10px;
   color: #007BFF;
 }
 
@@ -81,7 +91,6 @@ th {
   font-weight: bold;
 }
 
-/* Ajustes para pantallas pequeñas */
 @media (max-width: 600px) {
   h2 {
     font-size: 18px;
