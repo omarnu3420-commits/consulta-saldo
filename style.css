@@ -1,21 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 10px;
-  background: #f9f9f9;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
   color: #333;
 }
 
 h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
+  margin: 20px 10px 5px;
+  color: #007BFF;
+}
+
+p {
+  text-align: center;
+  margin: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
 }
 
 input, button {
-  width: 100%;       /* Ocupan todo el ancho en móviles */
+  width: 100%;
   padding: 12px;
   margin: 8px 0;
   font-size: 16px;
   box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
 button {
@@ -23,28 +41,44 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
 }
 
 button:hover {
   background: #0056b3;
 }
 
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #007BFF;
+  text-align: center;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 14px;
 }
 
 th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   padding: 6px;
   text-align: center;
 }
 
 th {
-  background: #eee;
+  background: #f9f9f9;
+  font-weight: bold;
 }
 
 /* Ajustes para pantallas pequeñas */
