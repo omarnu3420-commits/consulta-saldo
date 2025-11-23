@@ -99,7 +99,7 @@ button:hover {
   forced-color-adjust: none;           /* Bloquea ajustes de alto contraste */
 }
 
-/* Fuerza negro y negritas en todo lo interno, incl. iOS Safari */
+/* Fuerza negro y negritas en todo lo interno */
 .card *, 
 .card table *, 
 .card h3, 
@@ -119,9 +119,7 @@ button:hover {
 }
 
 /* Mensajes dentro de la tarjeta */
-.card p,
-.card .mensaje,
-.card .nota {
+.card p {
   text-align: center;
   margin: 6px 0;
 }
@@ -152,29 +150,6 @@ button:hover {
 .card .total {
   background: rgba(0,0,0,0.06);
   font-weight: 800 !important;
-}
-
-/* ====== Utilidades ====== */
-.hidden { display: none !important; }
-.center { text-align: center !important; }
-.bold { font-weight: 800 !important; }
-.black { color: #000 !important; -webkit-text-fill-color: #000 !important; }
-
-/* ====== Modo oscuro del sistema: mantener negro ====== */
-@media (prefers-color-scheme: dark) {
-  .card,
-  .card *,
-  .card table *,
-  .card h3,
-  .card p,
-  .card th,
-  .card td {
-    color: #000 !important;
-    -webkit-text-fill-color: #000 !important;
-    background-color: transparent;
-  }
-  .card { background: #FFD700; border-color: #000; }
-  .card th { background: #9ec9df; } /* Un poco más oscuro en dark mode */
 }
 
 /* ====== Responsivo ====== */
