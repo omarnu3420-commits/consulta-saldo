@@ -1,4 +1,4 @@
-/* ====== Reset básico y tipografía ====== */
+/* ====== Reset y tipografía ====== */
 * {
   box-sizing: border-box;
 }
@@ -14,16 +14,17 @@ body {
   background: #f0f2f5;
   color: #333;
   line-height: 1.4;
+  color-scheme: light; /* Indica tema claro a navegadores */
 }
 
-/* ====== Contenedor principal ====== */
+/* ====== Contenedor ====== */
 .container {
   max-width: 520px;
   margin: 0 auto;
   padding: 16px;
 }
 
-/* ====== Logo e ícono ====== */
+/* ====== Logo ====== */
 .logo {
   text-align: center;
   margin-top: 16px;
@@ -35,7 +36,7 @@ body {
   display: inline-block;
 }
 
-/* ====== Títulos y párrafos generales ====== */
+/* ====== Títulos y texto general ====== */
 h1, h2, h3 {
   margin: 10px 0;
   text-align: center;
@@ -86,31 +87,41 @@ button:hover {
 
 /* ====== Tarjeta Estado de Cuenta ====== */
 .card {
-  background: #FFD700;            /* Amarillo intenso */
-  border: 3px solid #000;         /* Borde negro grueso */
+  background: #FFD700;                 /* Amarillo intenso */
+  border: 3px solid #000;              /* Borde negro grueso */
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 16px;
   margin-top: 16px;
-  color: #000 !important;         /* Forzar negro */
-  font-weight: 700 !important;    /* Forzar negritas */
+  color: #000 !important;              /* Forzar negro */
+  font-weight: 700 !important;         /* Forzar negritas */
+  color-scheme: light;                 /* Evita inversión automática */
+  forced-color-adjust: none;           /* Bloquea ajustes de alto contraste */
+}
+
+/* Fuerza negro y negritas en todo lo interno, incl. iOS Safari */
+.card *, 
+.card table *, 
+.card h3, 
+.card p, 
+.card th, 
+.card td {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important; /* iOS Safari */
+  font-weight: 700 !important;
 }
 
 /* Título dentro de la tarjeta */
 .card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  color: #000 !important;
-  font-weight: 800 !important;
   text-align: center;
 }
 
-/* Mensajes dentro de la tarjeta (debajo de la tabla) */
+/* Mensajes dentro de la tarjeta */
 .card p,
 .card .mensaje,
 .card .nota {
-  color: #000 !important;
-  font-weight: 700 !important;
   text-align: center;
   margin: 6px 0;
 }
@@ -129,16 +140,14 @@ button:hover {
   border: 1px solid #333;
   padding: 8px 6px;
   text-align: center;
-  color: #000 !important;         /* Forzar negro */
-  font-weight: 700 !important;    /* Negritas */
 }
 
 /* Encabezados con azul suave */
 .card th {
-  background: #add8e6;            /* Azul suave */
+  background: #add8e6; /* Azul suave */
 }
 
-/* Fila de totales resaltada (si existe) */
+/* Fila de totales (si existe) */
 .card tfoot td,
 .card .total {
   background: rgba(0,0,0,0.06);
@@ -146,38 +155,33 @@ button:hover {
 }
 
 /* ====== Utilidades ====== */
-.hidden {
-  display: none !important;
-}
+.hidden { display: none !important; }
+.center { text-align: center !important; }
+.bold { font-weight: 800 !important; }
+.black { color: #000 !important; -webkit-text-fill-color: #000 !important; }
 
-.center {
-  text-align: center !important;
-}
-
-.bold {
-  font-weight: 800 !important;
-}
-
-.black {
-  color: #000 !important;
+/* ====== Modo oscuro del sistema: mantener negro ====== */
+@media (prefers-color-scheme: dark) {
+  .card,
+  .card *,
+  .card table *,
+  .card h3,
+  .card p,
+  .card th,
+  .card td {
+    color: #000 !important;
+    -webkit-text-fill-color: #000 !important;
+    background-color: transparent;
+  }
+  .card { background: #FFD700; border-color: #000; }
+  .card th { background: #9ec9df; } /* Un poco más oscuro en dark mode */
 }
 
 /* ====== Responsivo ====== */
 @media (max-width: 600px) {
-  .container {
-    padding: 12px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  .card {
-    border-width: 3px;
-    padding: 14px;
-  }
-  .card table {
-    font-size: 13px;
-  }
-  .icono {
-    width: 56px;
-  }
+  .container { padding: 12px; }
+  h2 { font-size: 18px; }
+  .card { border-width: 3px; padding: 14px; }
+  .card table { font-size: 13px; }
+  .icono { width: 56px; }
 }
