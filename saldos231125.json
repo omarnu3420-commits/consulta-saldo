@@ -250,14 +250,6 @@
  {
   "No.Apt": "02-B",
   "Nombre del Propietario": "MARISOL LUCENA      ",
-  "No. Factura": 82024,
-  "Monto": 2200,
-  "Abonado": 1200,
-  "Saldo": 1000
- },
- {
-  "No.Apt": "02-B",
-  "Nombre del Propietario": "MARISOL LUCENA      ",
   "No. Factura": 82025,
   "Monto": 3000,
   "Abonado": 0,
@@ -268,7 +260,7 @@
   "Nombre del Propietario": "MARISOL LUCENA      ",
   "No. Factura": 92024,
   "Monto": 2500,
-  "Abonado": 0,
+  "Abonado": 10,
   "Saldo": 2500
  },
  {
@@ -2030,14 +2022,6 @@
   "Monto": 3000,
   "Abonado": 0,
   "Saldo": 3000
- },
- {
-  "No.Apt": "13-C",
-  "Nombre del Propietario": "ANA RAMOS           ",
-  "No. Factura": 102025,
-  "Monto": 3000,
-  "Abonado": 500,
-  "Saldo": 2500
  },
  {
   "No.Apt": "13-D",
