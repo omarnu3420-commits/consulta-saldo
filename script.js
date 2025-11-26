@@ -4,19 +4,29 @@ function formatearMontoEntero(valor) {
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-// Mostrar fecha de actualización al iniciar
+// Mostrar fecha de actualización al iniciar (formato DD-MM-AA)
 async function mostrarFechaActualizacion() {
   try {
     const response = await fetch("saldos231125.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
-    const registroFecha = data.find(r => r["No.Apt"] === "00-0");
+    const registroFecha = Array.isArray(data) ? data.find(r => r["No.Apt"] === "00-0") : null;
     if (registroFecha) {
-      const fecha = registroFecha["No. Factura"];
+      let fechaRaw = registroFecha["No. Factura"]?.toString() ?? "";
+
+      // Si viene como 6 dígitos (ej. 261125) → 26-11-25
+      if (/^\d{6}$/.test(fechaRaw)) {
+        const dd = fechaRaw.slice(0, 2);
+        const mm = fechaRaw.slice(2, 4);
+        const aa = fechaRaw.slice(4, 6);
+        fechaRaw = `${dd}-${mm}-${aa}`;
+      }
+
+      // Inserta la fecha en el primer <p> del encabezado
       const fechaParrafo = document.querySelector("p");
       if (fechaParrafo) {
-        fechaParrafo.textContent = `Consulta de Saldo al: ${fecha}`;
+        fechaParrafo.textContent = `Consulta de Saldo al: ${fechaRaw}`;
       }
     }
   } catch (err) {
@@ -28,10 +38,11 @@ async function consultarSaldo() {
   const codigoInput = document.getElementById("codigo").value.trim().toUpperCase();
   if (!codigoInput) return;
 
+  // Normalización: "1A" → "01-A", "PBX" → "PB-X"
   let codigo = codigoInput;
   if (/^\d+[A-D]$/.test(codigo)) {
-    let num = codigo.slice(0, -1).padStart(2, "0");
-    let letra = codigo.slice(-1);
+    const num = codigo.slice(0, -1).padStart(2, "0");
+    const letra = codigo.slice(-1);
     codigo = `${num}-${letra}`;
   } else if (/^PB[A-D]$/.test(codigo)) {
     codigo = `PB-${codigo.slice(-1)}`;
@@ -58,7 +69,7 @@ async function consultarSaldo() {
       <h3>Estado de Cuenta</h3>
       <p>No.Apt: ${codigo}</p>
       <p>Nombre: ${nombre}</p>
-      <p><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
+      <p class="saldo"><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
       <table>
         <tr><th>No.Factura</th><th>Monto</th><th>Abonado</th><th>Pendiente</th></tr>
     `;
