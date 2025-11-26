@@ -4,27 +4,34 @@ function formatearMontoEntero(valor) {
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-// Mostrar fecha de actualización al iniciar (formato DD-MM-AA)
+// Generar sufijo dinámico DIA+MES+HORA+MINUTOS
+function generarSufijoVersion() {
+  const ahora = new Date();
+  const dia = String(ahora.getDate()).padStart(2, "0");
+  const mes = String(ahora.getMonth() + 1).padStart(2, "0");
+  const hora = String(ahora.getHours()).padStart(2, "0");
+  const minutos = String(ahora.getMinutes()).padStart(2, "0");
+  return `${dia}${mes}${hora}${minutos}`;
+}
+
+// Mostrar fecha de actualización al iniciar
 async function mostrarFechaActualizacion() {
   try {
-    const response = await fetch("saldos231125.json", { cache: "no-store" });
+    const sufijo = generarSufijoVersion();
+    const response = await fetch(`saldos231125.json?v=${sufijo}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
     const registroFecha = Array.isArray(data) ? data.find(r => r["No.Apt"] === "00-0") : null;
     if (registroFecha) {
       let fechaRaw = registroFecha["No. Factura"]?.toString() ?? "";
-
-      // Si viene como 6 dígitos (ej. 261125) → 26-11-25
       if (/^\d{6}$/.test(fechaRaw)) {
         const dd = fechaRaw.slice(0, 2);
         const mm = fechaRaw.slice(2, 4);
         const aa = fechaRaw.slice(4, 6);
         fechaRaw = `${dd}-${mm}-${aa}`;
       }
-
-      // Inserta la fecha en el primer <p> del encabezado
-      const fechaParrafo = document.querySelector("p");
+      const fechaParrafo = document.getElementById("fecha");
       if (fechaParrafo) {
         fechaParrafo.textContent = `Consulta de Saldo al: ${fechaRaw}`;
       }
@@ -38,7 +45,6 @@ async function consultarSaldo() {
   const codigoInput = document.getElementById("codigo").value.trim().toUpperCase();
   if (!codigoInput) return;
 
-  // Normalización: "1A" → "01-A", "PBX" → "PB-X"
   let codigo = codigoInput;
   if (/^\d+[A-D]$/.test(codigo)) {
     const num = codigo.slice(0, -1).padStart(2, "0");
@@ -52,7 +58,8 @@ async function consultarSaldo() {
   resultadoDiv.innerHTML = "<p>Consultando...</p>";
 
   try {
-    const response = await fetch("saldos231125.json", { cache: "no-store" });
+    const sufijo = generarSufijoVersion();
+    const response = await fetch(`saldos231125.json?v=${sufijo}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
