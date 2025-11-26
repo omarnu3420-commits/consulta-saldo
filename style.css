@@ -140,3 +140,11 @@ p {
   .card table { font-size: 13px; }
   .icono { width: 56px; }
 }
+/* ====== Resaltar el saldo ====== */
+.card .saldo {
+  font-size: 22px;       /* Más grande */
+  font-weight: 900;      /* Negritas fuertes */
+  color: #000;           /* Negro sólido */
+  text-align: center;    /* Centrado */
+  margin-top: 12px;
+}
