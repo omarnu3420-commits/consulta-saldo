@@ -160,3 +160,15 @@ button:hover {
   .card table { font-size: 13px; }
   .icono { width: 56px; }
 }
+/* ====== Campo Código de Apartamento ====== */
+#codigo {
+  width: 60%;                /* Más angosto */
+  height: 48px;              /* Más alto */
+  background: #ffff00;       /* Fondo amarillo intenso */
+  color: #000;               /* Letras negras */
+  font-weight: bold;         /* Negritas */
+  font-size: 18px;           /* Tamaño legible */
+  text-align: center;        /* Centrado */
+  border: 3px solid #000;    /* Borde negro grueso */
+  border-radius: 8px;
+}
