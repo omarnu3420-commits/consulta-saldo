@@ -14,7 +14,7 @@ body {
   background: #f0f2f5;
   color: #333;
   line-height: 1.4;
-  color-scheme: light; /* Indica tema claro a navegadores */
+  color-scheme: light;
 }
 
 /* ====== Contenedor ====== */
@@ -22,6 +22,7 @@ body {
   max-width: 520px;
   margin: 0 auto;
   padding: 16px;
+  text-align: center;
 }
 
 /* ====== Logo ====== */
@@ -36,7 +37,7 @@ body {
   display: inline-block;
 }
 
-/* ====== Títulos y texto general ====== */
+/* ====== Títulos ====== */
 h1, h2, h3 {
   margin: 10px 0;
   text-align: center;
@@ -55,101 +56,80 @@ p {
   color: #555;
 }
 
-/* ====== Formulario ====== */
-input, button {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  font-size: 16px;
+/* ====== Campo Código de Apartamento ====== */
+#codigo {
+  display: block;
+  margin: 0 auto;
+  width: 60%;                 /* Más angosto */
+  height: 48px;               /* Más alto */
+  background: #ffff00;        /* Fondo amarillo */
+  color: #000;                /* Letras negras */
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid #000;
   border-radius: 8px;
-  border: 1px solid #ccc;
-  background: #fff;
 }
 
-input:focus {
-  outline: none;
-  border-color: #007BFF;
-  box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+/* Placeholder tenue */
+#codigo::placeholder {
+  color: #999;
+  font-weight: normal;
 }
 
-button {
+/* ====== Botones ====== */
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.botones button {
+  flex: 1;
+  max-width: 120px;
   background: #007BFF;
   color: #fff;
+  font-weight: bold;
   border: none;
+  border-radius: 8px;
+  padding: 12px;
   cursor: pointer;
-  font-weight: 700;
   transition: background 0.2s ease-in-out;
 }
 
-button:hover {
+.botones button:hover {
   background: #0056b3;
 }
 
 /* ====== Tarjeta Estado de Cuenta ====== */
 .card {
-  background: #f2f2f2;                /* Gris claro */
-  border: 3px solid #000;             /* Borde negro grueso */
+  background: #f2f2f2;
+  border: 3px solid #000;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   padding: 16px;
   margin-top: 16px;
-  color: #000 !important;             /* Forzar negro */
-  font-weight: 700 !important;        /* Negritas */
-  color-scheme: light;
-  forced-color-adjust: none;
-}
-
-/* Fuerza negro y negritas en todo lo interno */
-.card *, 
-.card table *, 
-.card h3, 
-.card p, 
-.card th, 
-.card td {
   color: #000 !important;
-  -webkit-text-fill-color: #000 !important; /* iOS Safari */
   font-weight: 700 !important;
 }
 
-/* Título dentro de la tarjeta */
-.card h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-/* Mensajes dentro de la tarjeta */
-.card p {
-  text-align: center;
-  margin: 6px 0;
-}
-
-/* ====== Tabla dentro de la tarjeta ====== */
 .card table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
   font-size: 14px;
-  background: transparent;
 }
 
 .card th, 
 .card td {
-  border: 1px solid #ccc; /* Bordes gris claro */
+  border: 1px solid #ccc;
   padding: 8px 6px;
   text-align: center;
 }
 
-/* Encabezados con azul suave */
 .card th {
   background: #add8e6; /* Azul suave */
-}
-
-/* Fila de totales (si existe) */
-.card tfoot td,
-.card .total {
-  background: rgba(0,0,0,0.06);
-  font-weight: 800 !important;
 }
 
 /* ====== Responsivo ====== */
@@ -159,16 +139,4 @@ button:hover {
   .card { border-width: 3px; padding: 14px; }
   .card table { font-size: 13px; }
   .icono { width: 56px; }
-}
-/* ====== Campo Código de Apartamento ====== */
-#codigo {
-  width: 60%;                /* Más angosto */
-  height: 48px;              /* Más alto */
-  background: #ffff00;       /* Fondo amarillo intenso */
-  color: #000;               /* Letras negras */
-  font-weight: bold;         /* Negritas */
-  font-size: 18px;           /* Tamaño legible */
-  text-align: center;        /* Centrado */
-  border: 3px solid #000;    /* Borde negro grueso */
-  border-radius: 8px;
 }
