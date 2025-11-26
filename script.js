@@ -4,6 +4,26 @@ function formatearMontoEntero(valor) {
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+// Mostrar fecha de actualización al iniciar
+async function mostrarFechaActualizacion() {
+  try {
+    const response = await fetch("saldos231125.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
+    const data = await response.json();
+
+    const registroFecha = data.find(r => r["No.Apt"] === "00-0");
+    if (registroFecha) {
+      const fecha = registroFecha["No. Factura"];
+      const fechaParrafo = document.querySelector("p");
+      if (fechaParrafo) {
+        fechaParrafo.textContent = `Consulta de Saldo al: ${fecha}`;
+      }
+    }
+  } catch (err) {
+    console.error("No se pudo cargar la fecha de actualización:", err);
+  }
+}
+
 async function consultarSaldo() {
   const codigoInput = document.getElementById("codigo").value.trim().toUpperCase();
   if (!codigoInput) return;
@@ -68,3 +88,6 @@ async function consultarSaldo() {
     `;
   }
 }
+
+// Ejecutar al arrancar la aplicación
+window.onload = mostrarFechaActualizacion;
