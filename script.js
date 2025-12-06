@@ -22,9 +22,9 @@ async function mostrarFechaActualizacion() {
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
-    const registroFecha = Array.isArray(data) ? data.find(r => r["No.Apt"] === "00-0") : null;
+    const registroFecha = Array.isArray(data) ? data.find(r => r["No.APT"] === "00-0") : null;
     if (registroFecha) {
-      let fechaRaw = registroFecha["No. Factura"]?.toString() ?? "";
+      let fechaRaw = registroFecha["No. FACTURA"]?.toString() ?? "";
       if (/^\d{6}$/.test(fechaRaw)) {
         const dd = fechaRaw.slice(0, 2);
         const mm = fechaRaw.slice(2, 4);
@@ -63,30 +63,30 @@ async function consultarSaldo() {
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
-    const registros = Array.isArray(data) ? data.filter(r => r["No.Apt"] === codigo) : [];
+    const registros = Array.isArray(data) ? data.filter(r => r["No.APT"] === codigo) : [];
     if (registros.length === 0) {
       resultadoDiv.innerHTML = `<p>No.Apt: ${codigo}</p><p>* Sin Deuda</p>`;
       return;
     }
 
-    const nombre = (registros[0]["Nombre del Propietario"] || "").trim();
-    const saldoTotalEntero = registros.reduce((sum, r) => sum + (Number(r["Saldo"]) || 0), 0);
+    const nombre = (registros[0]["NOMBRE PROPIETARIO"] || "").trim();
+    const saldoTotalEntero = registros.reduce((sum, r) => sum + (Number(r["SALDO"]) || 0), 0);
 
     let detalle = `
       <h3>Estado de Cuenta</h3>
-      <p>No.Apt: ${codigo}</p>
-      <p>Nombre: ${nombre}</p>
+      <p>No.APT: ${codigo}</p>
+      <p>NOMBRE: ${nombre}</p>
       <p class="saldo"><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
       <table>
-        <tr><th>No.Factura</th><th>Monto</th><th>Abonado</th><th>Pendiente</th></tr>
+        <tr><th>No.FACTURA</th><th>MONTO</th><th>ABONADO</th><th>Pendiente</th></tr>
     `;
     registros.forEach(r => {
       detalle += `
         <tr>
-          <td>${r["No. Factura"]}</td>
-          <td>${formatearMontoEntero(r["Monto"])}</td>
-          <td>${formatearMontoEntero(r["Abonado"])}</td>
-          <td>${formatearMontoEntero(r["Saldo"])}</td>
+          <td>${r["No. FACTURA"]}</td>
+          <td>${formatearMontoEntero(r["MONTO"])}</td>
+          <td>${formatearMontoEntero(r["ABONADO"])}</td>
+          <td>${formatearMontoEntero(r["SALDO"])}</td>
         </tr>
       `;
     });
