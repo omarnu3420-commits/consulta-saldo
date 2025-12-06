@@ -24,7 +24,7 @@ async function mostrarFechaActualizacion() {
 
     const registroFecha = Array.isArray(data) ? data.find(r => r["No.APT"] === "00-0") : null;
     if (registroFecha) {
-      let fechaRaw = registroFecha["No. FACTURA"]?.toString() ?? "";
+      let fechaRaw = registroFecha["No.FACTURA"]?.toString() ?? "";
       if (/^\d{6}$/.test(fechaRaw)) {
         const dd = fechaRaw.slice(0, 2);
         const mm = fechaRaw.slice(2, 4);
@@ -83,7 +83,7 @@ async function consultarSaldo() {
     registros.forEach(r => {
       detalle += `
         <tr>
-          <td>${r["No. FACTURA"]}</td>
+          <td>${r["No.FACTURA"]}</td>
           <td>${formatearMontoEntero(r["MONTO"])}</td>
           <td>${formatearMontoEntero(r["ABONADO"])}</td>
           <td>${formatearMontoEntero(r["SALDO"])}</td>
