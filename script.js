@@ -18,7 +18,7 @@ function generarSufijoVersion() {
 async function mostrarFechaActualizacion() {
   try {
     const sufijo = generarSufijoVersion();
-    const response = await fetch(`saldos231125.json?v=${sufijo}`, { cache: "no-store" });
+    const response = await fetch(`saldoscaruao.json?v=${sufijo}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
@@ -102,7 +102,7 @@ async function consultarSaldo() {
     resultadoDiv.innerHTML = `
       <p style="color:#b00020;">No se pudo cargar la base de datos.</p>
       <p>Detalle: ${err.message}</p>
-      <p>Verifica que el archivo <strong>saldos231125.json</strong> existe en la raíz del repositorio y es JSON válido.</p>
+      <p>Verifica que el archivo <strong>saldoscaruao.json</strong> existe en la raíz del repositorio y es JSON válido.</p>
     `;
   }
 }
