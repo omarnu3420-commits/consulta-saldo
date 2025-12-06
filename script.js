@@ -84,6 +84,7 @@ async function consultarSaldo() {
       detalle += `
         <tr>
           <td>${r["No.FACTURA"]}</td>
+
           <td>${formatearMontoEntero(r["MONTO"])}</td>
           <td>${formatearMontoEntero(r["ABONADO"])}</td>
           <td>${formatearMontoEntero(r["SALDO"])}</td>
