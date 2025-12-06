@@ -1,13 +1,14 @@
 [
     {
         "No.APT": "00-0",
-        "NOMBRE PROPIETARIO": "     .              ",
+        "NOMBRE PROPIETARIO": "                    ",
         "No.FACTURA": "061225",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
-    },    
-    {        "No.APT": "01-A",
+    },
+    {
+        "No.APT": "01-A",
         "NOMBRE PROPIETARIO": "WILFREDO VASQUEZ    ",
         "No.FACTURA": "OCT-25",
         "MONTO": 3000,
@@ -2590,5 +2591,4 @@
         "ABONADO": 0,
         "SALDO": 3100
     }
-
 ]

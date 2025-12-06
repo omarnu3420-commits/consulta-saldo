@@ -59,7 +59,7 @@ async function consultarSaldo() {
 
   try {
     const sufijo = generarSufijoVersion();
-    const response = await fetch(`saldos231125.json?v=${sufijo}`, { cache: "no-store" });
+    const response = await fetch(`saldoscaruao.json?v=${sufijo}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
