@@ -4,6 +4,7 @@ function formatearMontoEntero(valor) {
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+// Generar sufijo dinámico DIA+MES+HORA+MINUTOS
 function generarSufijoVersion() {
   const ahora = new Date();
   const dia = String(ahora.getDate()).padStart(2, "0");
@@ -13,12 +14,14 @@ function generarSufijoVersion() {
   return `${dia}${mes}${hora}${minutos}`;
 }
 
+// Mostrar fecha de actualización al iniciar
 async function mostrarFechaActualizacion() {
   try {
     const sufijo = generarSufijoVersion();
     const response = await fetch(`saldoscaruao.json?v=${sufijo}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
+
     const registroFecha = Array.isArray(data) ? data.find(r => r["No.APT"] === "00-0") : null;
     if (registroFecha) {
       let fechaRaw = registroFecha["No.FACTURA"]?.toString() ?? "";
@@ -53,7 +56,6 @@ async function consultarSaldo() {
 
   const resultadoDiv = document.getElementById("resultado");
   resultadoDiv.innerHTML = "<p>Consultando...</p>";
-  resultadoDiv.className = "card";
 
   try {
     const sufijo = generarSufijoVersion();
@@ -64,15 +66,11 @@ async function consultarSaldo() {
     const registros = Array.isArray(data) ? data.filter(r => r["No.APT"] === codigo) : [];
     if (registros.length === 0) {
       resultadoDiv.innerHTML = `<p>No.Apt: ${codigo}</p><p>* Sin Deuda</p>`;
-      resultadoDiv.className = "card neutro";
       return;
     }
 
     const nombre = (registros[0]["NOMBRE PROPIETARIO"] || "").trim();
     const saldoTotalEntero = registros.reduce((sum, r) => sum + (Number(r["SALDO"]) || 0), 0);
-    const claseSaldo = saldoTotalEntero > 0 ? "negativo" :
-                       saldoTotalEntero < 0 ? "positivo" : "neutro";
-    resultadoDiv.className = `card ${claseSaldo}`;
 
     let detalle = `
       <h3>Estado de Cuenta</h3>
@@ -86,8 +84,29 @@ async function consultarSaldo() {
       detalle += `
         <tr>
           <td>${r["No.FACTURA"]}</td>
+
           <td>${formatearMontoEntero(r["MONTO"])}</td>
-          <td>${formatearMontoEntero(r["ABONADO"])}</td
+          <td>${formatearMontoEntero(r["ABONADO"])}</td>
+          <td>${formatearMontoEntero(r["SALDO"])}</td>
+        </tr>
+      `;
+    });
+    detalle += `</table>
+      <p style="text-align:center; margin-top:10px;">Agradecemos ponerse al día</p>
+      <p style="text-align:center;">Por favor hacer su pago PM así:</p>
+      <p style="text-align:center;">Bco:0134 C.I: 12.537.118 Tel.0412.422.16.92</p>
+      <p style="text-align:center;">Enviar captura al grupo del condominio, Gracias</p>
+    `;
 
+    resultadoDiv.innerHTML = detalle;
+  } catch (err) {
+    resultadoDiv.innerHTML = `
+      <p style="color:#b00020;">No se pudo cargar la base de datos.</p>
+      <p>Detalle: ${err.message}</p>
+      <p>Verifica que el archivo <strong>saldoscaruao.json</strong> existe en la raíz del repositorio y es JSON válido.</p>
+    `;
+  }
+}
 
-
+// Ejecutar al arrancar la aplicación
+window.onload = mostrarFechaActualizacion;
