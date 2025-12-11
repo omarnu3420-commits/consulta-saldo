@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Consulta de Saldo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS con versión dinámica -->
-  <link id="cssLink" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="logo">
-    <img src="edificio.png" alt="Icono edificio" class="icono">
-  </div>
-  <h2>Residencias Paseo Colon - Edificio Caruao</h2>
-  <p id="fecha">Consulta de Saldo al: ...</p>
-
   <div class="container">
-    <input type="text" id="codigo" placeholder="No.Apt.">
+    <div class="logo">
+      <img src="icono.png" alt="Icono" class="icono" />
+    </div>
+    <h2>Consulta de Saldo</h2>
+    <p id="fecha">Cargando fecha...</p>
+    <input type="text" id="codigo" placeholder="Ej: 01A o PB-A" />
     <div class="botones">
-      <button onclick="consultarSaldo()">Consulta</button>
-      <button onclick="salirApp()">Salir</button>
+      <button onclick="consultarSaldo()">Consultar</button>
     </div>
     <div id="resultado" class="card"></div>
+    <footer>
+      <p>Datos verificados semanalmente. Consulta confiable desde la base oficial.</p>
+    </footer>
   </div>
-
-  <!-- Script con versión dinámica -->
-  <script id="jsLink" src="script.js"></script>
-  <script>
-    function salirApp() {
-      window.location.href = "https://www.google.com"; 
-    }
-
-    // Forzar recarga de CSS y JS con sufijo dinámico
-    (function(){
-      const ahora = new Date();
-      const sufijo = `${ahora.getDate()}${ahora.getMonth()+1}${ahora.getHours()}${ahora.getMinutes()}`;
-      document.getElementById("cssLink").href = `style.css?v=${sufijo}`;
-      document.getElementById("jsLink").src = `script.js?v=${sufijo}`;
-    })();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
