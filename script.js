@@ -78,4 +78,16 @@ async function consultarSaldo() {
       <h3>Estado de Cuenta</h3>
       <p>No.APT: ${codigo}</p>
       <p>NOMBRE: ${nombre}</p>
-      <p class="saldo"><strong>Saldo: $${formatearMontoEnter
+      <p class="saldo"><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
+      <table>
+        <tr><th>No.FACTURA</th><th>MONTO</th><th>ABONADO</th><th>Pendiente</th></tr>
+    `;
+    registros.forEach(r => {
+      detalle += `
+        <tr>
+          <td>${r["No.FACTURA"]}</td>
+          <td>${formatearMontoEntero(r["MONTO"])}</td>
+          <td>${formatearMontoEntero(r["ABONADO"])}</td
+
+
+
