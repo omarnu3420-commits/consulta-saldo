@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "131225",
+        "No.FACTURA": "191225",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -462,14 +462,6 @@
         "MONTO": 2500,
         "ABONADO": 1005,
         "SALDO": 1495
-    },
-    {
-        "No.APT": "03-D",
-        "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
-        "No.FACTURA": "NOV-25",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
     },
     {
         "No.APT": "04-B",
@@ -1124,8 +1116,8 @@
         "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
         "No.FACTURA": "JUL-25",
         "MONTO": 2400,
-        "ABONADO": 300,
-        "SALDO": 2100
+        "ABONADO": 2300,
+        "SALDO": 100
     },
     {
         "No.APT": "07-B",
@@ -1202,18 +1194,10 @@
     {
         "No.APT": "07-D",
         "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
-        "No.FACTURA": "OCT-25",
-        "MONTO": 3000,
-        "ABONADO": 2000,
-        "SALDO": 1000
-    },
-    {
-        "No.APT": "07-D",
-        "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
         "No.FACTURA": "NOV-25",
         "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
+        "ABONADO": 2000,
+        "SALDO": 1100
     },
     {
         "No.APT": "08-B",
@@ -1322,14 +1306,6 @@
     {
         "No.APT": "08-D",
         "NOMBRE PROPIETARIO": "ROXMIRA AVILA       ",
-        "No.FACTURA": "NOV-25",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "09-A",
-        "NOMBRE PROPIETARIO": "FAN CHANG           ",
         "No.FACTURA": "NOV-25",
         "MONTO": 3100,
         "ABONADO": 0,
@@ -1546,14 +1522,6 @@
     {
         "No.APT": "09-D",
         "NOMBRE PROPIETARIO": "ROXANA FIGUEROA     ",
-        "No.FACTURA": "NOV-25",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "10-A",
-        "NOMBRE PROPIETARIO": "RAMON CABALLERO     ",
         "No.FACTURA": "NOV-25",
         "MONTO": 3100,
         "ABONADO": 0,
@@ -1802,14 +1770,6 @@
     {
         "No.APT": "11-B",
         "NOMBRE PROPIETARIO": "OMAR NUNEZ          ",
-        "No.FACTURA": "NOV-25",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "11-C",
-        "NOMBRE PROPIETARIO": "MORELA GARCIA       ",
         "No.FACTURA": "NOV-25",
         "MONTO": 3100,
         "ABONADO": 0,
@@ -2458,14 +2418,6 @@
     {
         "No.APT": "PB-C",
         "NOMBRE PROPIETARIO": "CESAR TORO          ",
-        "No.FACTURA": "NOV-25",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "PB-D",
-        "NOMBRE PROPIETARIO": "ANGEL VICENT        ",
         "No.FACTURA": "NOV-25",
         "MONTO": 3100,
         "ABONADO": 0,
