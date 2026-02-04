@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "020226",
+        "No.FACTURA": "040226",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -146,14 +146,6 @@
     {
         "No.APT": "02-C",
         "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "122025",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "03-A",
-        "NOMBRE PROPIETARIO": "HENRY CORNEJO       ",
         "No.FACTURA": "122025",
         "MONTO": 3000,
         "ABONADO": 0,
@@ -476,8 +468,8 @@
         "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
         "No.FACTURA": "092025",
         "MONTO": 2500,
-        "ABONADO": 0,
-        "SALDO": 2500
+        "ABONADO": 2000,
+        "SALDO": 500
     },
     {
         "No.APT": "07-B",
@@ -546,18 +538,10 @@
     {
         "No.APT": "07-D",
         "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
-        "No.FACTURA": "112025",
-        "MONTO": 3100,
-        "ABONADO": 2000,
-        "SALDO": 1100
-    },
-    {
-        "No.APT": "07-D",
-        "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
         "No.FACTURA": "122025",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 1900,
+        "SALDO": 1100
     },
     {
         "No.APT": "08-B",
@@ -588,8 +572,8 @@
         "NOMBRE PROPIETARIO": "AMERICA SUZARRA     ",
         "No.FACTURA": "SA1225",
         "MONTO": 24000,
-        "ABONADO": 5200,
-        "SALDO": 18800
+        "ABONADO": 9200,
+        "SALDO": 14800
     },
     {
         "No.APT": "09-A",
@@ -674,18 +658,10 @@
     {
         "No.APT": "10-B",
         "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
-        "No.FACTURA": "122025",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "10-B",
-        "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
         "No.FACTURA": "SA1225",
         "MONTO": 92905,
-        "ABONADO": 33480,
-        "SALDO": 59425
+        "ABONADO": 33505,
+        "SALDO": 59400
     },
     {
         "No.APT": "10-D",
