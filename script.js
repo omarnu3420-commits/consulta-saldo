@@ -1,35 +1,31 @@
 /**
  * Convierte MMYYYY a MES-AA (ej: 122025 -> DIC-25)
- * Si no cumple el formato o el mes es inválido, devuelve el original.
  */
 function formatearFactura(codigo) {
   const facturaStr = String(codigo).trim();
-  
-  // Diccionario de meses
   const meses = {
     "01": "ENE", "02": "FEB", "03": "MAR", "04": "ABR",
     "05": "MAY", "06": "JUN", "07": "JUL", "08": "AGO",
     "09": "SEP", "10": "OCT", "11": "NOV", "12": "DIC"
   };
 
-  // Validar si son exactamente 6 dígitos numéricos
   if (/^\d{6}$/.test(facturaStr)) {
     const mesNum = facturaStr.slice(0, 2);
-    const anioCualquiera = facturaStr.slice(2); // Los 4 dígitos del año
-    const anioCorto = facturaStr.slice(4);    // Los últimos 2 dígitos (ej: 25)
-
+    const anioCorto = facturaStr.slice(4);
     if (meses[mesNum]) {
       return `${meses[mesNum]}-${anioCorto}`;
     }
   }
-
-  // Si es TUBGAS, SAXXXX o cualquier otro, lo deja igual
   return facturaStr;
 }
 
+/**
+ * Formato numérico con punto decimal (estilo US) para teclado numérico
+ */
 function formatearMontoEntero(valor) {
   const n = Number(valor) || 0;
   const dec = n / 100;
+  // Usamos 'es-VE' pero con la configuración de decimales solicitada
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
@@ -53,10 +49,7 @@ async function mostrarFechaActualizacion() {
     if (registroFecha) {
       let fechaRaw = registroFecha["No.FACTURA"]?.toString() ?? "";
       if (/^\d{6}$/.test(fechaRaw)) {
-        const dd = fechaRaw.slice(0, 2);
-        const mm = fechaRaw.slice(2, 4);
-        const aa = fechaRaw.slice(4, 6);
-        fechaRaw = `${dd}-${mm}-${aa}`;
+        fechaRaw = `${fechaRaw.slice(0, 2)}-${fechaRaw.slice(2, 4)}-${fechaRaw.slice(4, 6)}`;
       }
       const fechaParrafo = document.getElementById("fecha");
       if (fechaParrafo) {
@@ -90,6 +83,18 @@ async function consultarSaldo() {
     if (!response.ok) throw new Error(`Error al cargar JSON: ${response.status}`);
     const data = await response.json();
 
+    // Obtener fecha para el reporte individual
+    const registroFecha = Array.isArray(data) ? data.find(r => r["No.APT"] === "00-0") : null;
+    let fechaCorte = "---";
+    if (registroFecha) {
+      let fRaw = registroFecha["No.FACTURA"]?.toString() ?? "";
+      if (/^\d{6}$/.test(fRaw)) {
+        fechaCorte = `${fRaw.slice(0, 2)}-${fRaw.slice(2, 4)}-${fRaw.slice(4, 6)}`;
+      } else {
+        fechaCorte = fRaw;
+      }
+    }
+
     const registros = Array.isArray(data) ? data.filter(r => r["No.APT"] === codigo) : [];
     if (registros.length === 0) {
       resultadoDiv.innerHTML = `<p>No.Apt: ${codigo}</p><p>* Sin Deuda</p>`;
@@ -101,17 +106,16 @@ async function consultarSaldo() {
 
     let detalle = `
       <h3>Estado de Cuenta</h3>
+      <p><strong>Estado de Cuenta al: ${fechaCorte}</strong></p>
       <p>No.APT: ${codigo}</p>
       <p>NOMBRE: ${nombre}</p>
       <p class="saldo"><strong>Saldo: $${formatearMontoEntero(saldoTotalEntero)}</strong></p>
       <table>
         <tr><th>No.FACTURA</th><th>MONTO</th><th>ABONADO</th><th>Pendiente</th></tr>
     `;
-    
+
     registros.forEach(r => {
-      // Aplicamos la nueva lógica de formato aquí
       const facturaVisual = formatearFactura(r["No.FACTURA"]);
-      
       detalle += `
         <tr>
           <td>${facturaVisual}</td>
@@ -121,7 +125,7 @@ async function consultarSaldo() {
         </tr>
       `;
     });
-    
+
     detalle += `</table>
       <p style="text-align:center; margin-top:10px;">Agradecemos ponerse al día</p>
       <p style="text-align:center;">Por favor hacer su pago PM así:</p>
@@ -131,11 +135,9 @@ async function consultarSaldo() {
 
     resultadoDiv.innerHTML = detalle;
   } catch (err) {
-    resultadoDiv.innerHTML = `
-      <p style="color:#b00020;">No se pudo cargar la base de datos.</p>
-      <p>Detalle: ${err.message}</p>
-    `;
+    resultadoDiv.innerHTML = `<p style="color:#b00020;">Error: ${err.message}</p>`;
   }
 }
 
+// Esta es la línea que faltaba para arrancar la app correctamente
 window.onload = mostrarFechaActualizacion;
