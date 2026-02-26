@@ -1,10 +1,38 @@
+/**
+ * Convierte MMYYYY a MES-AA (ej: 122025 -> DIC-25)
+ * Si no cumple el formato o el mes es inválido, devuelve el original.
+ */
+function formatearFactura(codigo) {
+  const facturaStr = String(codigo).trim();
+  
+  // Diccionario de meses
+  const meses = {
+    "01": "ENE", "02": "FEB", "03": "MAR", "04": "ABR",
+    "05": "MAY", "06": "JUN", "07": "JUL", "08": "AGO",
+    "09": "SEP", "10": "OCT", "11": "NOV", "12": "DIC"
+  };
+
+  // Validar si son exactamente 6 dígitos numéricos
+  if (/^\d{6}$/.test(facturaStr)) {
+    const mesNum = facturaStr.slice(0, 2);
+    const anioCualquiera = facturaStr.slice(2); // Los 4 dígitos del año
+    const anioCorto = facturaStr.slice(4);    // Los últimos 2 dígitos (ej: 25)
+
+    if (meses[mesNum]) {
+      return `${meses[mesNum]}-${anioCorto}`;
+    }
+  }
+
+  // Si es TUBGAS, SAXXXX o cualquier otro, lo deja igual
+  return facturaStr;
+}
+
 function formatearMontoEntero(valor) {
   const n = Number(valor) || 0;
   const dec = n / 100;
   return dec.toLocaleString('es-VE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-// Generar sufijo dinámico DIA+MES+HORA+MINUTOS
 function generarSufijoVersion() {
   const ahora = new Date();
   const dia = String(ahora.getDate()).padStart(2, "0");
@@ -14,7 +42,6 @@ function generarSufijoVersion() {
   return `${dia}${mes}${hora}${minutos}`;
 }
 
-// Mostrar fecha de actualización al iniciar
 async function mostrarFechaActualizacion() {
   try {
     const sufijo = generarSufijoVersion();
@@ -80,17 +107,21 @@ async function consultarSaldo() {
       <table>
         <tr><th>No.FACTURA</th><th>MONTO</th><th>ABONADO</th><th>Pendiente</th></tr>
     `;
+    
     registros.forEach(r => {
+      // Aplicamos la nueva lógica de formato aquí
+      const facturaVisual = formatearFactura(r["No.FACTURA"]);
+      
       detalle += `
         <tr>
-          <td>${r["No.FACTURA"]}</td>
-
+          <td>${facturaVisual}</td>
           <td>${formatearMontoEntero(r["MONTO"])}</td>
           <td>${formatearMontoEntero(r["ABONADO"])}</td>
           <td>${formatearMontoEntero(r["SALDO"])}</td>
         </tr>
       `;
     });
+    
     detalle += `</table>
       <p style="text-align:center; margin-top:10px;">Agradecemos ponerse al día</p>
       <p style="text-align:center;">Por favor hacer su pago PM así:</p>
@@ -103,10 +134,8 @@ async function consultarSaldo() {
     resultadoDiv.innerHTML = `
       <p style="color:#b00020;">No se pudo cargar la base de datos.</p>
       <p>Detalle: ${err.message}</p>
-      <p>Verifica que el archivo <strong>saldoscaruao.json</strong> existe en la raíz del repositorio y es JSON válido.</p>
     `;
   }
 }
 
-// Ejecutar al arrancar la aplicación
 window.onload = mostrarFechaActualizacion;
