@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "090326",
+        "No.FACTURA": "160326",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -168,38 +168,6 @@
         "SALDO": 1726
     },
     {
-        "No.APT": "02-C",
-        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "122025",
-        "MONTO": 3000,
-        "ABONADO": 2000,
-        "SALDO": 1000
-    },
-    {
-        "No.APT": "02-C",
-        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "012026",
-        "MONTO": 2800,
-        "ABONADO": 0,
-        "SALDO": 2800
-    },
-    {
-        "No.APT": "02-C",
-        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "022026",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "02-D",
-        "NOMBRE PROPIETARIO": "EKRID MINGUEZ       ",
-        "No.FACTURA": "022026",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
         "No.APT": "03-A",
         "NOMBRE PROPIETARIO": "HENRY CORNEJO       ",
         "No.FACTURA": "022026",
@@ -248,22 +216,6 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "03-D",
-        "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
-        "No.FACTURA": "012026",
-        "MONTO": 2800,
-        "ABONADO": 1500,
-        "SALDO": 1300
-    },
-    {
-        "No.APT": "03-D",
-        "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
-        "No.FACTURA": "022026",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
         "No.APT": "04-A",
         "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
         "No.FACTURA": "022026",
@@ -274,18 +226,10 @@
     {
         "No.APT": "04-B",
         "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
-        "No.FACTURA": "112025",
-        "MONTO": 3100,
-        "ABONADO": 2100,
-        "SALDO": 1000
-    },
-    {
-        "No.APT": "04-B",
-        "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
         "No.FACTURA": "122025",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 2800,
+        "SALDO": 200
     },
     {
         "No.APT": "04-B",
@@ -348,8 +292,8 @@
         "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
         "No.FACTURA": "SA1225",
         "MONTO": 21600,
-        "ABONADO": 4600,
-        "SALDO": 17000
+        "ABONADO": 7600,
+        "SALDO": 14000
     },
     {
         "No.APT": "04-D",
@@ -540,16 +484,16 @@
         "NOMBRE PROPIETARIO": "SALAH MAKAREN       ",
         "No.FACTURA": "092025",
         "MONTO": 2500,
-        "ABONADO": 100,
-        "SALDO": 2400
+        "ABONADO": 2400,
+        "SALDO": 100
     },
     {
         "No.APT": "06-B",
         "NOMBRE PROPIETARIO": "SALAH MAKAREN       ",
         "No.FACTURA": "102025",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 2000,
+        "SALDO": 1000
     },
     {
         "No.APT": "06-B",
@@ -710,6 +654,14 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "07-B",
+        "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
+        "No.FACTURA": "122025",
+        "MONTO": 3000,
+        "ABONADO": 2300,
+        "SALDO": 700
     },
     {
         "No.APT": "07-B",
@@ -1032,14 +984,6 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "11-C",
-        "NOMBRE PROPIETARIO": "MORELA GARCIA       ",
-        "No.FACTURA": "022026",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
         "No.APT": "11-D",
         "NOMBRE PROPIETARIO": "PABLO ROSAS         ",
         "No.FACTURA": "122025",
@@ -1178,26 +1122,10 @@
     {
         "No.APT": "13-B",
         "NOMBRE PROPIETARIO": "PLINIO MARIN        ",
-        "No.FACTURA": "102025",
-        "MONTO": 3000,
-        "ABONADO": 1400,
-        "SALDO": 1600
-    },
-    {
-        "No.APT": "13-B",
-        "NOMBRE PROPIETARIO": "PLINIO MARIN        ",
-        "No.FACTURA": "112025",
-        "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "13-B",
-        "NOMBRE PROPIETARIO": "PLINIO MARIN        ",
         "No.FACTURA": "122025",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 1100,
+        "SALDO": 1900
     },
     {
         "No.APT": "13-B",
@@ -1226,18 +1154,10 @@
     {
         "No.APT": "13-D",
         "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
-        "No.FACTURA": "122025",
-        "MONTO": 3000,
-        "ABONADO": 500,
-        "SALDO": 2500
-    },
-    {
-        "No.APT": "13-D",
-        "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
         "No.FACTURA": "012026",
         "MONTO": 2800,
-        "ABONADO": 0,
-        "SALDO": 2800
+        "ABONADO": 2000,
+        "SALDO": 800
     },
     {
         "No.APT": "13-D",
