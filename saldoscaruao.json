@@ -466,18 +466,10 @@
     {
         "No.APT": "05-A",
         "NOMBRE PROPIETARIO": "MARIA MONCADA       ",
-        "No.FACTURA": "102025",
-        "MONTO": 3000,
-        "ABONADO": 2900,
-        "SALDO": 100
-    },
-    {
-        "No.APT": "05-A",
-        "NOMBRE PROPIETARIO": "MARIA MONCADA       ",
         "No.FACTURA": "112025",
         "MONTO": 3100,
-        "ABONADO": 0,
-        "SALDO": 3100
+        "ABONADO": 300,
+        "SALDO": 2800
     },
     {
         "No.APT": "05-A",
@@ -668,8 +660,8 @@
         "NOMBRE PROPIETARIO": "JESUSITA BADUIL     ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 1000,
+        "SALDO": 2000
     },
     {
         "No.APT": "06-A",
