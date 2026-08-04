@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "090726",
+        "No.FACTURA": "040826",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -30,6 +30,30 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "01-A",
+        "NOMBRE PROPIETARIO": "WILFREDO VASQUEZ    ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "01-A",
+        "NOMBRE PROPIETARIO": "WILFREDO VASQUEZ    ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "01-A",
+        "NOMBRE PROPIETARIO": "WILFREDO VASQUEZ    ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "01-B",
@@ -104,12 +128,44 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "01-B",
+        "NOMBRE PROPIETARIO": "RAFAEL FERMIN       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "01-B",
+        "NOMBRE PROPIETARIO": "RAFAEL FERMIN       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "01-C",
         "NOMBRE PROPIETARIO": "JUAN FEBRES         ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
         "ABONADO": 100,
         "SALDO": 2900
+    },
+    {
+        "No.APT": "01-C",
+        "NOMBRE PROPIETARIO": "JUAN FEBRES         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "01-C",
+        "NOMBRE PROPIETARIO": "JUAN FEBRES         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "01-D",
@@ -124,8 +180,8 @@
         "NOMBRE PROPIETARIO": "PEDRO BOADA         ",
         "No.FACTURA": "SA1225",
         "MONTO": 92739,
-        "ABONADO": 46035,
-        "SALDO": 46704
+        "ABONADO": 48039,
+        "SALDO": 44700
     },
     {
         "No.APT": "01-D",
@@ -176,52 +232,92 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "01-D",
+        "NOMBRE PROPIETARIO": "PEDRO BOADA         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "01-D",
+        "NOMBRE PROPIETARIO": "PEDRO BOADA         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "02-A",
+        "NOMBRE PROPIETARIO": "- GLORIA SALAZAR    ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "02-B",
         "NOMBRE PROPIETARIO": "MARISOL LUCENA      ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "02-C",
-        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 2500,
-        "SALDO": 900
+        "SALDO": 3600
     },
     {
         "No.APT": "02-C",
         "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
+        "ABONADO": 1600,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "02-C",
+        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 2200,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 2200
+    },
+    {
+        "No.APT": "02-C",
+        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "02-D",
+        "NOMBRE PROPIETARIO": "EKRID MINGUEZ       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "03-A",
         "NOMBRE PROPIETARIO": "HENRY CORNEJO       ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3400
-    },
-    {
-        "No.APT": "03-A",
-        "NOMBRE PROPIETARIO": "HENRY CORNEJO       ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 3600
     },
     {
         "No.APT": "03-B",
         "NOMBRE PROPIETARIO": "VICENTE GUEVARA     ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
-        "ABONADO": 1300,
-        "SALDO": 1700
+        "No.FACTURA": "RASCEN",
+        "MONTO": 2200,
+        "ABONADO": 0,
+        "SALDO": 2200
+    },
+    {
+        "No.APT": "03-B",
+        "NOMBRE PROPIETARIO": "VICENTE GUEVARA     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "03-C",
@@ -288,6 +384,22 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "03-C",
+        "NOMBRE PROPIETARIO": "AMADA ROJAS         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "03-C",
+        "NOMBRE PROPIETARIO": "AMADA ROJAS         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "03-D",
         "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
         "No.FACTURA": "052026",
@@ -304,12 +416,44 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "03-D",
+        "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 7200,
+        "ABONADO": 0,
+        "SALDO": 7200
+    },
+    {
+        "No.APT": "03-D",
+        "NOMBRE PROPIETARIO": "DOMINGO VELIZ       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "04-A",
         "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "04-A",
+        "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 3000,
+        "ABONADO": 0,
+        "SALDO": 3000
+    },
+    {
+        "No.APT": "04-A",
+        "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "04-B",
@@ -336,6 +480,22 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "04-B",
+        "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 1200,
+        "ABONADO": 0,
+        "SALDO": 1200
+    },
+    {
+        "No.APT": "04-B",
+        "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "04-C",
         "NOMBRE PROPIETARIO": "MIRIAM ROSALES      ",
         "No.FACTURA": "122025",
@@ -348,8 +508,8 @@
         "NOMBRE PROPIETARIO": "MIRIAM ROSALES      ",
         "No.FACTURA": "SA1225",
         "MONTO": 21600,
-        "ABONADO": 1349,
-        "SALDO": 20251
+        "ABONADO": 6400,
+        "SALDO": 15200
     },
     {
         "No.APT": "04-C",
@@ -398,6 +558,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "04-C",
+        "NOMBRE PROPIETARIO": "MIRIAM ROSALES      ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "04-C",
+        "NOMBRE PROPIETARIO": "MIRIAM ROSALES      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "04-D",
@@ -464,20 +640,28 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "05-A",
-        "NOMBRE PROPIETARIO": "MARIA MONCADA       ",
-        "No.FACTURA": "112025",
-        "MONTO": 3100,
-        "ABONADO": 300,
-        "SALDO": 2800
+        "No.APT": "04-D",
+        "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "04-D",
+        "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "05-A",
         "NOMBRE PROPIETARIO": "MARIA MONCADA       ",
         "No.FACTURA": "122025",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 300,
+        "SALDO": 2700
     },
     {
         "No.APT": "05-A",
@@ -526,6 +710,14 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "05-A",
+        "NOMBRE PROPIETARIO": "MARIA MONCADA       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "05-B",
@@ -592,6 +784,22 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "05-B",
+        "NOMBRE PROPIETARIO": "MILITZA VASQUEZ     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 4200,
+        "ABONADO": 0,
+        "SALDO": 4200
+    },
+    {
+        "No.APT": "05-B",
+        "NOMBRE PROPIETARIO": "MILITZA VASQUEZ     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "05-C",
         "NOMBRE PROPIETARIO": "MARTIN MALAVE       ",
         "No.FACTURA": "122025",
@@ -656,12 +864,52 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "05-C",
+        "NOMBRE PROPIETARIO": "MARTIN MALAVE       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 9700,
+        "ABONADO": 0,
+        "SALDO": 9700
+    },
+    {
+        "No.APT": "05-C",
+        "NOMBRE PROPIETARIO": "MARTIN MALAVE       ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "05-C",
+        "NOMBRE PROPIETARIO": "MARTIN MALAVE       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "05-D",
         "NOMBRE PROPIETARIO": "JESUSITA BADUIL     ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
         "ABONADO": 1000,
         "SALDO": 2000
+    },
+    {
+        "No.APT": "05-D",
+        "NOMBRE PROPIETARIO": "JESUSITA BADUIL     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 200,
+        "ABONADO": 0,
+        "SALDO": 200
+    },
+    {
+        "No.APT": "05-D",
+        "NOMBRE PROPIETARIO": "JESUSITA BADUIL     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "06-A",
@@ -676,8 +924,8 @@
         "NOMBRE PROPIETARIO": "JOSEPH MARDELLI     ",
         "No.FACTURA": "SA1225",
         "MONTO": 26300,
-        "ABONADO": 14700,
-        "SALDO": 11600
+        "ABONADO": 16700,
+        "SALDO": 9600
     },
     {
         "No.APT": "06-A",
@@ -726,6 +974,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "06-A",
+        "NOMBRE PROPIETARIO": "JOSEPH MARDELLI     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 5200,
+        "ABONADO": 0,
+        "SALDO": 5200
+    },
+    {
+        "No.APT": "06-A",
+        "NOMBRE PROPIETARIO": "JOSEPH MARDELLI     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "06-B",
@@ -808,12 +1072,28 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "06-B",
+        "NOMBRE PROPIETARIO": "SALAH MAKAREN       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 4700,
+        "ABONADO": 0,
+        "SALDO": 4700
+    },
+    {
+        "No.APT": "06-B",
+        "NOMBRE PROPIETARIO": "SALAH MAKAREN       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "06-C",
         "NOMBRE PROPIETARIO": "EDGAR GOMEZ         ",
         "No.FACTURA": "022026",
         "MONTO": 3000,
-        "ABONADO": 1100,
-        "SALDO": 1900
+        "ABONADO": 2600,
+        "SALDO": 400
     },
     {
         "No.APT": "06-C",
@@ -846,6 +1126,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "06-C",
+        "NOMBRE PROPIETARIO": "EDGAR GOMEZ         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 4200,
+        "ABONADO": 0,
+        "SALDO": 4200
+    },
+    {
+        "No.APT": "06-C",
+        "NOMBRE PROPIETARIO": "EDGAR GOMEZ         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "06-D",
@@ -912,20 +1208,28 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "07-A",
-        "NOMBRE PROPIETARIO": "JESUS APONTE        ",
-        "No.FACTURA": "042026",
-        "MONTO": 3100,
-        "ABONADO": 2200,
-        "SALDO": 900
+        "No.APT": "06-D",
+        "NOMBRE PROPIETARIO": "IGNACIO JORQUERA    ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "06-D",
+        "NOMBRE PROPIETARIO": "IGNACIO JORQUERA    ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "07-A",
         "NOMBRE PROPIETARIO": "JESUS APONTE        ",
         "No.FACTURA": "052026",
         "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
+        "ABONADO": 2100,
+        "SALDO": 1300
     },
     {
         "No.APT": "07-A",
@@ -934,6 +1238,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "07-A",
+        "NOMBRE PROPIETARIO": "JESUS APONTE        ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "07-A",
+        "NOMBRE PROPIETARIO": "JESUS APONTE        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "07-B",
@@ -974,6 +1294,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "07-B",
+        "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 2700,
+        "ABONADO": 0,
+        "SALDO": 2700
+    },
+    {
+        "No.APT": "07-B",
+        "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "07-C",
@@ -1024,20 +1360,28 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "07-D",
-        "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
-        "No.FACTURA": "042026",
-        "MONTO": 3100,
-        "ABONADO": 2700,
-        "SALDO": 400
+        "No.APT": "07-C",
+        "NOMBRE PROPIETARIO": "SANDRA CANACHE      ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 3200,
+        "ABONADO": 0,
+        "SALDO": 3200
+    },
+    {
+        "No.APT": "07-C",
+        "NOMBRE PROPIETARIO": "SANDRA CANACHE      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "07-D",
         "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
         "No.FACTURA": "052026",
         "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
+        "ABONADO": 2600,
+        "SALDO": 800
     },
     {
         "No.APT": "07-D",
@@ -1046,6 +1390,30 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "07-D",
+        "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 200,
+        "ABONADO": 0,
+        "SALDO": 200
+    },
+    {
+        "No.APT": "07-D",
+        "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "08-A",
+        "NOMBRE PROPIETARIO": "DAVID HERRERA       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "08-B",
@@ -1078,6 +1446,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "08-B",
+        "NOMBRE PROPIETARIO": "Daniuska Chasoy     ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "08-B",
+        "NOMBRE PROPIETARIO": "Daniuska Chasoy     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "08-C",
@@ -1144,12 +1528,20 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "08-D",
-        "NOMBRE PROPIETARIO": "ROXMIRA AVILA       ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 300,
-        "SALDO": 3100
+        "No.APT": "08-C",
+        "NOMBRE PROPIETARIO": "AMERICA SUZARRA     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 2200,
+        "ABONADO": 0,
+        "SALDO": 2200
+    },
+    {
+        "No.APT": "08-C",
+        "NOMBRE PROPIETARIO": "AMERICA SUZARRA     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "08-D",
@@ -1160,12 +1552,28 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "08-D",
+        "NOMBRE PROPIETARIO": "ROXMIRA AVILA       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 3200,
+        "ABONADO": 0,
+        "SALDO": 3200
+    },
+    {
+        "No.APT": "08-D",
+        "NOMBRE PROPIETARIO": "ROXMIRA AVILA       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "09-A",
         "NOMBRE PROPIETARIO": "FAN CHANG           ",
         "No.FACTURA": "022026",
         "MONTO": 3000,
-        "ABONADO": 1500,
-        "SALDO": 1500
+        "ABONADO": 2800,
+        "SALDO": 200
     },
     {
         "No.APT": "09-A",
@@ -1198,6 +1606,30 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "09-A",
+        "NOMBRE PROPIETARIO": "FAN CHANG           ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 2200,
+        "ABONADO": 0,
+        "SALDO": 2200
+    },
+    {
+        "No.APT": "09-A",
+        "NOMBRE PROPIETARIO": "FAN CHANG           ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "09-A",
+        "NOMBRE PROPIETARIO": "FAN CHANG           ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "09-B",
@@ -1212,8 +1644,8 @@
         "NOMBRE PROPIETARIO": "JACQUELIN LOPEZ     ",
         "No.FACTURA": "SA1225",
         "MONTO": 19100,
-        "ABONADO": 10400,
-        "SALDO": 8700
+        "ABONADO": 13400,
+        "SALDO": 5700
     },
     {
         "No.APT": "09-B",
@@ -1262,6 +1694,22 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "09-B",
+        "NOMBRE PROPIETARIO": "JACQUELIN LOPEZ     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 3200,
+        "ABONADO": 0,
+        "SALDO": 3200
+    },
+    {
+        "No.APT": "09-B",
+        "NOMBRE PROPIETARIO": "JACQUELIN LOPEZ     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "09-C",
@@ -1276,8 +1724,8 @@
         "NOMBRE PROPIETARIO": "CRISTIAN NUCETE     ",
         "No.FACTURA": "SA1225",
         "MONTO": 36400,
-        "ABONADO": 753,
-        "SALDO": 35647
+        "ABONADO": 6300,
+        "SALDO": 30100
     },
     {
         "No.APT": "09-C",
@@ -1326,6 +1774,14 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "09-C",
+        "NOMBRE PROPIETARIO": "CRISTIAN NUCETE     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "09-D",
@@ -1384,28 +1840,76 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "10-A",
-        "NOMBRE PROPIETARIO": "RAMON CABALLERO     ",
-        "No.FACTURA": "062026",
+        "No.APT": "09-D",
+        "NOMBRE PROPIETARIO": "ROXANA FIGUEROA     ",
+        "No.FACTURA": "MOPIS9",
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "09-D",
+        "NOMBRE PROPIETARIO": "ROXANA FIGUEROA     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 200,
+        "ABONADO": 0,
+        "SALDO": 200
+    },
+    {
+        "No.APT": "09-D",
+        "NOMBRE PROPIETARIO": "ROXANA FIGUEROA     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "10-A",
+        "NOMBRE PROPIETARIO": "RAMON CABALLERO     ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 200,
+        "ABONADO": 0,
+        "SALDO": 200
+    },
+    {
+        "No.APT": "10-A",
+        "NOMBRE PROPIETARIO": "RAMON CABALLERO     ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "10-B",
         "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
         "No.FACTURA": "SA1225",
         "MONTO": 92905,
-        "ABONADO": 52405,
-        "SALDO": 40500
+        "ABONADO": 56405,
+        "SALDO": 36500
     },
     {
         "No.APT": "10-B",
         "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "RASCEN",
+        "MONTO": 1200,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 1200
+    },
+    {
+        "No.APT": "10-B",
+        "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "10-C",
+        "NOMBRE PROPIETARIO": "ELIDIS BRAZON       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "10-D",
@@ -1472,60 +1976,52 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "11-A",
-        "NOMBRE PROPIETARIO": "CRUZ HERNANDEZ      ",
-        "No.FACTURA": "032026",
-        "MONTO": 3400,
-        "ABONADO": 800,
-        "SALDO": 2600
-    },
-    {
-        "No.APT": "11-A",
-        "NOMBRE PROPIETARIO": "CRUZ HERNANDEZ      ",
-        "No.FACTURA": "042026",
-        "MONTO": 3100,
+        "No.APT": "10-D",
+        "NOMBRE PROPIETARIO": "JESUS OBANDO        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3100
-    },
-    {
-        "No.APT": "11-A",
-        "NOMBRE PROPIETARIO": "CRUZ HERNANDEZ      ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
+        "SALDO": 3600
     },
     {
         "No.APT": "11-A",
         "NOMBRE PROPIETARIO": "CRUZ HERNANDEZ      ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
+        "ABONADO": 1900,
+        "SALDO": 1100
+    },
+    {
+        "No.APT": "11-A",
+        "NOMBRE PROPIETARIO": "CRUZ HERNANDEZ      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 3600
     },
     {
         "No.APT": "11-B",
         "NOMBRE PROPIETARIO": "OMAR NUNEZ          ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 1500,
+        "No.FACTURA": "062026",
+        "MONTO": 3000,
+        "ABONADO": 1100,
         "SALDO": 1900
     },
     {
         "No.APT": "11-B",
         "NOMBRE PROPIETARIO": "OMAR NUNEZ          ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 3600
     },
     {
         "No.APT": "11-C",
         "NOMBRE PROPIETARIO": "MORELA GARCIA       ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
-        "ABONADO": 500,
-        "SALDO": 2500
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "11-D",
@@ -1592,12 +2088,44 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "11-D",
+        "NOMBRE PROPIETARIO": "PABLO ROSAS         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "11-D",
+        "NOMBRE PROPIETARIO": "PABLO ROSAS         ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "11-D",
+        "NOMBRE PROPIETARIO": "PABLO ROSAS         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "12-A",
         "NOMBRE PROPIETARIO": "Abog. Dora Elena Ban",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "12-A",
+        "NOMBRE PROPIETARIO": "Abog. Dora Elena Ban",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "12-B",
@@ -1672,6 +2200,30 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "12-B",
+        "NOMBRE PROPIETARIO": "FRANKLIN ARIAS      ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "12-B",
+        "NOMBRE PROPIETARIO": "FRANKLIN ARIAS      ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "12-B",
+        "NOMBRE PROPIETARIO": "FRANKLIN ARIAS      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "12-C",
         "NOMBRE PROPIETARIO": "ALBERTO MORENO      ",
         "No.FACTURA": "042026",
@@ -1696,12 +2248,28 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "12-C",
+        "NOMBRE PROPIETARIO": "ALBERTO MORENO      ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 8700,
+        "ABONADO": 0,
+        "SALDO": 8700
+    },
+    {
+        "No.APT": "12-C",
+        "NOMBRE PROPIETARIO": "ALBERTO MORENO      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "12-D",
         "NOMBRE PROPIETARIO": "ZENAIBY BARCENAS    ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 3600
     },
     {
         "No.APT": "13-A",
@@ -1776,12 +2344,20 @@
         "SALDO": 3000
     },
     {
-        "No.APT": "13-B",
-        "NOMBRE PROPIETARIO": "PLINIO MARIN        ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 500,
-        "SALDO": 2900
+        "No.APT": "13-A",
+        "NOMBRE PROPIETARIO": "LUIS GAGO           ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "13-A",
+        "NOMBRE PROPIETARIO": "LUIS GAGO           ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "13-B",
@@ -1790,62 +2366,62 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "13-B",
+        "NOMBRE PROPIETARIO": "PLINIO MARIN        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "13-C",
         "NOMBRE PROPIETARIO": "ANA RAMOS           ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 1400,
-        "SALDO": 2000
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
     },
     {
         "No.APT": "13-C",
         "NOMBRE PROPIETARIO": "ANA RAMOS           ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
         "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "13-D",
-        "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
-        "No.FACTURA": "042026",
-        "MONTO": 3100,
-        "ABONADO": 2900,
-        "SALDO": 200
-    },
-    {
-        "No.APT": "13-D",
-        "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
-        "No.FACTURA": "052026",
-        "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
+        "SALDO": 3600
     },
     {
         "No.APT": "13-D",
         "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 2000,
+        "SALDO": 1000
     },
     {
-        "No.APT": "14-B",
-        "NOMBRE PROPIETARIO": "ANDRES VALLERA      ",
-        "No.FACTURA": "012026",
-        "MONTO": 2800,
-        "ABONADO": 400,
-        "SALDO": 2400
+        "No.APT": "13-D",
+        "NOMBRE PROPIETARIO": "JOSE ZERPA          ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
+        "No.APT": "14-A",
+        "NOMBRE PROPIETARIO": "OMAR MATA           ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "14-B",
         "NOMBRE PROPIETARIO": "ANDRES VALLERA      ",
         "No.FACTURA": "022026",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 600,
+        "SALDO": 2400
     },
     {
         "No.APT": "14-B",
@@ -1878,6 +2454,14 @@
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "14-B",
+        "NOMBRE PROPIETARIO": "ANDRES VALLERA      ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "14-C",
@@ -1944,6 +2528,30 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "14-C",
+        "NOMBRE PROPIETARIO": "JOSE ARRIOJAS       ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "14-C",
+        "NOMBRE PROPIETARIO": "JOSE ARRIOJAS       ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "14-C",
+        "NOMBRE PROPIETARIO": "JOSE ARRIOJAS       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "14-D",
         "NOMBRE PROPIETARIO": "LIBIA AVILA         ",
         "No.FACTURA": "042026",
@@ -1968,12 +2576,44 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "14-D",
+        "NOMBRE PROPIETARIO": "LIBIA AVILA         ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "14-D",
+        "NOMBRE PROPIETARIO": "LIBIA AVILA         ",
+        "No.FACTURA": "RBOMBA",
+        "MONTO": 1400,
+        "ABONADO": 0,
+        "SALDO": 1400
+    },
+    {
+        "No.APT": "14-D",
+        "NOMBRE PROPIETARIO": "LIBIA AVILA         ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "PB-B",
         "NOMBRE PROPIETARIO": "BETTY FREITES       ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
         "ABONADO": 0,
-        "SALDO": 3000
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "PB-B",
+        "NOMBRE PROPIETARIO": "BETTY FREITES       ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     },
     {
         "No.APT": "PB-C",
@@ -2016,11 +2656,43 @@
         "SALDO": 3000
     },
     {
+        "No.APT": "PB-C",
+        "NOMBRE PROPIETARIO": "CESAR TORO          ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 200,
+        "ABONADO": 0,
+        "SALDO": 200
+    },
+    {
+        "No.APT": "PB-C",
+        "NOMBRE PROPIETARIO": "CESAR TORO          ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
+    },
+    {
         "No.APT": "PB-D",
         "NOMBRE PROPIETARIO": "ANGEL VICENT        ",
         "No.FACTURA": "062026",
         "MONTO": 3000,
         "ABONADO": 0,
         "SALDO": 3000
+    },
+    {
+        "No.APT": "PB-D",
+        "NOMBRE PROPIETARIO": "ANGEL VICENT        ",
+        "No.FACTURA": "RASCEN",
+        "MONTO": 10200,
+        "ABONADO": 0,
+        "SALDO": 10200
+    },
+    {
+        "No.APT": "PB-D",
+        "NOMBRE PROPIETARIO": "ANGEL VICENT        ",
+        "No.FACTURA": "072026",
+        "MONTO": 3600,
+        "ABONADO": 0,
+        "SALDO": 3600
     }
 ]
