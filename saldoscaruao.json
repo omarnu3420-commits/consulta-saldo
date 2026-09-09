@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "080926",
+        "No.FACTURA": "090926",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -336,14 +336,6 @@
         "SALDO": 3500
     },
     {
-        "No.APT": "03-B",
-        "NOMBRE PROPIETARIO": "VICENTE GUEVARA     ",
-        "No.FACTURA": "082026",
-        "MONTO": 3500,
-        "ABONADO": 0,
-        "SALDO": 3500
-    },
-    {
         "No.APT": "03-C",
         "NOMBRE PROPIETARIO": "AMADA ROJAS         ",
         "No.FACTURA": "122025",
@@ -458,26 +450,10 @@
     {
         "No.APT": "04-A",
         "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
-        "No.FACTURA": "RASCEN",
-        "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "04-A",
-        "NOMBRE PROPIETARIO": "LUIS CANACHE        ",
         "No.FACTURA": "082026",
         "MONTO": 3500,
         "ABONADO": 0,
         "SALDO": 3500
-    },
-    {
-        "No.APT": "04-B",
-        "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
-        "No.FACTURA": "062026",
-        "MONTO": 3000,
-        "ABONADO": 1000,
-        "SALDO": 2000
     },
     {
         "No.APT": "04-B",
@@ -594,26 +570,10 @@
     {
         "No.APT": "04-D",
         "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
-        "No.FACTURA": "SA1225",
-        "MONTO": 21600,
-        "ABONADO": 21100,
-        "SALDO": 500
-    },
-    {
-        "No.APT": "04-D",
-        "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
-        "No.FACTURA": "012026",
-        "MONTO": 2800,
-        "ABONADO": 0,
-        "SALDO": 2800
-    },
-    {
-        "No.APT": "04-D",
-        "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
         "No.FACTURA": "022026",
         "MONTO": 3000,
-        "ABONADO": 0,
-        "SALDO": 3000
+        "ABONADO": 700,
+        "SALDO": 2300
     },
     {
         "No.APT": "04-D",
@@ -1964,8 +1924,8 @@
         "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
         "No.FACTURA": "SA1225",
         "MONTO": 92905,
-        "ABONADO": 58405,
-        "SALDO": 34500
+        "ABONADO": 60405,
+        "SALDO": 32500
     },
     {
         "No.APT": "10-B",
@@ -1978,14 +1938,6 @@
     {
         "No.APT": "10-B",
         "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
-        "No.FACTURA": "082026",
-        "MONTO": 3500,
-        "ABONADO": 0,
-        "SALDO": 3500
-    },
-    {
-        "No.APT": "10-C",
-        "NOMBRE PROPIETARIO": "ELIDIS BRAZON       ",
         "No.FACTURA": "082026",
         "MONTO": 3500,
         "ABONADO": 0,
