@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "090926",
+        "No.FACTURA": "110926",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -308,20 +308,12 @@
         "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
         "No.FACTURA": "072026",
         "MONTO": 3600,
-        "ABONADO": 600,
-        "SALDO": 3000
+        "ABONADO": 2600,
+        "SALDO": 1000
     },
     {
         "No.APT": "02-C",
         "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "082026",
-        "MONTO": 3500,
-        "ABONADO": 0,
-        "SALDO": 3500
-    },
-    {
-        "No.APT": "02-D",
-        "NOMBRE PROPIETARIO": "EKRID MINGUEZ       ",
         "No.FACTURA": "082026",
         "MONTO": 3500,
         "ABONADO": 0,
@@ -1140,8 +1132,8 @@
         "NOMBRE PROPIETARIO": "IGNACIO JORQUERA    ",
         "No.FACTURA": "SA1225",
         "MONTO": 34100,
-        "ABONADO": 19374,
-        "SALDO": 14726
+        "ABONADO": 22874,
+        "SALDO": 11226
     },
     {
         "No.APT": "06-D",
