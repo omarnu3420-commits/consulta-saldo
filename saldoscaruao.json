@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "161026",
+        "No.FACTURA": "171026",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -450,18 +450,10 @@
     {
         "No.APT": "04-B",
         "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
-        "No.FACTURA": "072026",
-        "MONTO": 3600,
-        "ABONADO": 600,
-        "SALDO": 3000
-    },
-    {
-        "No.APT": "04-B",
-        "NOMBRE PROPIETARIO": "MANZUR GONZALEZ     ",
         "No.FACTURA": "082026",
         "MONTO": 3500,
-        "ABONADO": 0,
-        "SALDO": 3500
+        "ABONADO": 2000,
+        "SALDO": 1500
     },
     {
         "No.APT": "04-B",
@@ -1412,8 +1404,8 @@
         "NOMBRE PROPIETARIO": "NANCY BELLORIN      ",
         "No.FACTURA": "082026",
         "MONTO": 3500,
-        "ABONADO": 200,
-        "SALDO": 3300
+        "ABONADO": 3400,
+        "SALDO": 100
     },
     {
         "No.APT": "07-D",
@@ -1500,8 +1492,8 @@
         "NOMBRE PROPIETARIO": "AMERICA SUZARRA     ",
         "No.FACTURA": "SA1225",
         "MONTO": 24000,
-        "ABONADO": 16900,
-        "SALDO": 7100
+        "ABONADO": 19900,
+        "SALDO": 4100
     },
     {
         "No.APT": "08-C",
@@ -1988,8 +1980,8 @@
         "NOMBRE PROPIETARIO": "JESUS OBANDO        ",
         "No.FACTURA": "SA1225",
         "MONTO": 64605,
-        "ABONADO": 24705,
-        "SALDO": 39900
+        "ABONADO": 29705,
+        "SALDO": 34900
     },
     {
         "No.APT": "10-D",
