@@ -2,7 +2,7 @@
     {
         "No.APT": "00-0",
         "NOMBRE PROPIETARIO": "                    ",
-        "No.FACTURA": "221026",
+        "No.FACTURA": "261026",
         "MONTO": 0,
         "ABONADO": 0,
         "SALDO": 0
@@ -298,14 +298,6 @@
     {
         "No.APT": "02-C",
         "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
-        "No.FACTURA": "082026",
-        "MONTO": 3500,
-        "ABONADO": 2500,
-        "SALDO": 1000
-    },
-    {
-        "No.APT": "02-C",
-        "NOMBRE PROPIETARIO": "CARMEN DE DICRISIO  ",
         "No.FACTURA": "092026",
         "MONTO": 3400,
         "ABONADO": 0,
@@ -588,8 +580,8 @@
         "NOMBRE PROPIETARIO": "JOSE LUIS MENDOZA   ",
         "No.FACTURA": "RASCEN",
         "MONTO": 10200,
-        "ABONADO": 0,
-        "SALDO": 10200
+        "ABONADO": 5000,
+        "SALDO": 5200
     },
     {
         "No.APT": "04-D",
@@ -1322,14 +1314,6 @@
     {
         "No.APT": "07-B",
         "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
-        "No.FACTURA": "RASCEN",
-        "MONTO": 2700,
-        "ABONADO": 0,
-        "SALDO": 2700
-    },
-    {
-        "No.APT": "07-B",
-        "NOMBRE PROPIETARIO": "ROBERTO JIMENEZ     ",
         "No.FACTURA": "072026",
         "MONTO": 3600,
         "ABONADO": 0,
@@ -1960,14 +1944,6 @@
         "SALDO": 1200
     },
     {
-        "No.APT": "10-B",
-        "NOMBRE PROPIETARIO": "LISETT PEREZ        ",
-        "No.FACTURA": "092026",
-        "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
-    },
-    {
         "No.APT": "10-D",
         "NOMBRE PROPIETARIO": "JESUS OBANDO        ",
         "No.FACTURA": "122025",
@@ -1980,8 +1956,8 @@
         "NOMBRE PROPIETARIO": "JESUS OBANDO        ",
         "No.FACTURA": "SA1225",
         "MONTO": 64605,
-        "ABONADO": 29705,
-        "SALDO": 34900
+        "ABONADO": 32705,
+        "SALDO": 31900
     },
     {
         "No.APT": "10-D",
@@ -2726,14 +2702,6 @@
         "MONTO": 10200,
         "ABONADO": 0,
         "SALDO": 10200
-    },
-    {
-        "No.APT": "PB-B",
-        "NOMBRE PROPIETARIO": "BETTY FREITES       ",
-        "No.FACTURA": "092026",
-        "MONTO": 3400,
-        "ABONADO": 0,
-        "SALDO": 3400
     },
     {
         "No.APT": "PB-C",
