@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de Saldo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS con versión dinámica -->
+  <link id="cssLink" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="edificio.png" alt="Icono edificio" class="icono">
+  </div>
+  <h2>Residencias Paseo Colon - Edificio Caruao</h2>
+  <p id="fecha">Consulta de Saldo al: ...</p>
+
+  <div class="container">
+    <input type="text" id="codigo" placeholder="No.Apt.">
+    <div class="botones">
+      <button onclick="consultarSaldo()">Consulta</button>
+      <button onclick="salirApp()">Salir</button>
+    </div>
+    <div id="resultado" class="card"></div>
+  </div>
+
+  <!-- Script con versión dinámica -->
+  <script id="jsLink" src="script.js"></script>
+  <script>
+    function salirApp() {
+      window.location.href = "https://www.google.com"; 
+    }
+
+    // Forzar recarga de CSS y JS con sufijo dinámico
+    (function(){
+      const ahora = new Date();
+      const sufijo = `${ahora.getDate()}${ahora.getMonth()+1}${ahora.getHours()}${ahora.getMinutes()}`;
+      document.getElementById("cssLink").href = `style.css?v=${sufijo}`;
+      document.getElementById("jsLink").src = `script.js?v=${sufijo}`;
+    })();
+  </script>
+</body>
+</html>
